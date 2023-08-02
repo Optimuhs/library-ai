@@ -1,0 +1,72 @@
+// schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["jsonProtocol"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url = env("POSTGRES_PRISMA_URL") // uses connection pooling
+  directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+}
+
+model User {
+  id                    Int       @id @default(autoincrement())
+  firstName             String
+  lastName              String
+  idNumber              String    @unique
+  isStudent             Boolean
+  createdAt             DateTime  @default(now()) @map(name: "created_at")
+  updatedAt             DateTime  @updatedAt @map(name: "updated_at")
+  currentReadingLevel   String
+
+  checkedOutBooks       Book[]    @relation("CheckedOutBooks")
+  checkedOutBooksId     Int[]
+
+  @@map(name: "users")
+}
+
+model Book {
+  id              Int            @id @default(autoincrement())
+  isbn            String         @unique
+  title           String
+  author          Author         @relation(fields: [authorId], references:[id])
+  authorId        Int
+
+  // Checkouts
+  checkedOut      Boolean
+  checkedOutAt    DateTime?      @default(now())
+  dueDate         DateTime?      
+  checkedInAt     DateTime?      @default(now())
+  checkedOutBy    User?          @relation("CheckedOutBooks", fields: [checkedOutById], references: [id])
+  checkedOutById  Int?
+  borrowerId      Int?     
+
+  // Reservations  
+  reserved        Boolean      
+  reservedBy      Reservation?   @relation(fields: [reservationId], references: [id])
+  reservationId   Int?
+  bookLevel       String
+  bookLevelColor  String
+  @@map(name: "books")
+}
+
+model Author {
+  id            Int         @id @default(autoincrement())
+  firstName     String    
+  lastName      String
+  booksWritten  Book[]
+  @@map(name: "authors")
+}
+
+model Reservation {
+  id                      Int          @id @default(autoincrement())
+  booksReserved           Book[]
+  bookId                  Int?
+  pending                 Boolean
+  reservationAt           DateTime?    @default(now()) @map(name: "reservation_at")
+  reservationFulfilled    DateTime?    @default(now()) @map(name: "reservation_fulfilled_at")
+  @@map(name: "reservations")
+}
+
