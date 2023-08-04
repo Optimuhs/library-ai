@@ -6,7 +6,6 @@ import { authOptions } from "../api/auth/[...nextauth]";
 export default function SignIn({
   providers,
 }: InferGetServerSidePropsType<typeof getServerSideProps>) {
-  console.log(providers);
   return (
     <>
       <h1>Hello</h1>

@@ -5,7 +5,9 @@ export default function Content() {
     <div>
       <h1>Welcome to the libaray</h1>
       <p>Here is some content</p>
-      <button onClick={() => signOut}>SignOut</button>
+      <button onClick={() => signOut({ callbackUrl: "/signin" })}>
+        SignOut
+      </button>
     </div>
   );
 }
