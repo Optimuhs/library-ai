@@ -6,15 +6,17 @@ import { authOptions } from "../api/auth/[...nextauth]";
 export default function SignIn({
   providers,
 }: InferGetServerSidePropsType<typeof getServerSideProps>) {
+  console.log(providers);
   return (
     <>
-      {Object.values(providers).map((provider) => {
+      <h1>Hello</h1>
+      {Object.values(providers).map((provider) => (
         <div key={provider.name}>
           <button onClick={() => signIn(provider.id)}>
-            Sign In with {provider.name}
+            Sign in with {provider.name}
           </button>
-        </div>;
-      })}
+        </div>
+      ))}
     </>
   );
 }
