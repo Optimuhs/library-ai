@@ -1,0 +1,112 @@
+[
+  {
+    "firstName": "Joan",
+    "lastName": "Smith",
+    "idNumber": "837862",
+    "isStudent": false,
+    "currentReadingLevel": "F",
+    "checkedOutBooks": {
+      "create": []
+    },
+    "checkedOutBooksId": []
+  },
+  {
+    "firstName": "David",
+    "lastName": "Jones",
+    "idNumber": "704241",
+    "isStudent": false,
+    "currentReadingLevel": "H",
+    "checkedOutBooks": {
+      "create": []
+    },
+    "checkedOutBooksId": []
+  },
+  {
+    "firstName": "David",
+    "lastName": "Johnson",
+    "idNumber": "4443232",
+    "isStudent": false,
+    "currentReadingLevel": "I",
+    "checkedOutBooks": {
+      "create": []
+    },
+    "checkedOutBooksId": []
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Milly",
+    "idNumber": "2234617",
+    "isStudent": true,
+    "currentReadingLevel": "I",
+    "checkedOutBooks": {
+      "create": []
+    },
+    "checkedOutBooksId": []
+  },
+  {
+    "firstName": "David",
+    "lastName": "Doe",
+    "idNumber": "2459797",
+    "isStudent": true,
+    "currentReadingLevel": "D",
+    "checkedOutBooks": {
+      "create": []
+    },
+    "checkedOutBooksId": []
+  },
+  {
+    "firstName": "John",
+    "lastName": "Gomez",
+    "idNumber": "7486732",
+    "isStudent": true,
+    "currentReadingLevel": "C",
+    "checkedOutBooks": {
+      "create": []
+    },
+    "checkedOutBooksId": []
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Doe",
+    "idNumber": "7144448",
+    "isStudent": true,
+    "currentReadingLevel": "G",
+    "checkedOutBooks": {
+      "create": []
+    },
+    "checkedOutBooksId": []
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Doe",
+    "idNumber": "8580683",
+    "isStudent": false,
+    "currentReadingLevel": "B",
+    "checkedOutBooks": {
+      "create": []
+    },
+    "checkedOutBooksId": []
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "idNumber": "4355426",
+    "isStudent": false,
+    "currentReadingLevel": "B",
+    "checkedOutBooks": {
+      "create": []
+    },
+    "checkedOutBooksId": []
+  },
+  {
+    "firstName": "David",
+    "lastName": "Doe",
+    "idNumber": "2256247",
+    "isStudent": true,
+    "currentReadingLevel": "C",
+    "checkedOutBooks": {
+      "create": []
+    },
+    "checkedOutBooksId": []
+  }
+]
