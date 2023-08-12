@@ -7,11 +7,15 @@ import {
   signInWithEmailAndPassword,
   signOut,
 } from "firebase/auth";
+import { getStorage } from "firebase/storage";
 import getFirebaseConfig from "./config";
 
 // Import firebase instance
-const app = initializeApp(getFirebaseConfig);
+const app = initializeApp(getFirebaseConfig());
 const auth = getAuth(app);
+
+// Initialize Cloud Storage and get a reference to the service
+export const storage = getStorage(app);
 
 export const signInUser = async (email: string, password: string) => {
   if (!email && !password) return;

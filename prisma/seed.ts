@@ -2,7 +2,7 @@ const { PrismaClient } = require("@prisma/client");
 const fs = require("fs");
 const prisma = new PrismaClient();
 async function main() {
-  // await generateUsers();
+  await generateUsers();
   await generateAuthors();
   await generateBooks();
 }

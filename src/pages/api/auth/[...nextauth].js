@@ -1,13 +1,34 @@
 import NextAuth from "next-auth";
+// import { FirebaseAdapter } from "next-auth/firebase-adapter";
 import GoogleProvider from "next-auth/providers/google";
+
+// import firebase from "../../../src/firebase/config";
 
 export const authOptions = {
   secret: process.env.NEXTAUTH_SECRET,
   providers: [
-    GoogleProvider({
-      clientId: process.env.GOOGLE_CLIENT_ID,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-    }),
+    GoogleProvider(
+      {
+        clientId: process.env.GOOGLE_CLIENT_ID,
+        clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+      }
+      // authorize: async (GoogleProvider) => {
+      //   // Use Firebase to verify the Google token and retrieve user data
+      //   // Add your authentication logic here using Firebase's GoogleAuthProvider
+      //   const { token } = GoogleProvider;
+      //   const googleCredential =
+      //     firebase.auth.GoogleAuthProvider.credential(token);
+      //   const userCredential = await firebase
+      //     .auth()
+      //     .signInWithCredential(googleCredential);
+      //   if (userCredential.user) {
+      //     return Promise.resolve(userCredential.user);
+      //   } else {
+      //     return Promise.resolve(null);
+      //   }
+      // },
+    ),
+
     // CredentialsProvider({
     //   // The name to display on the sign in form (e.g. 'Sign in with...')
     //   name: 'Credentials',
@@ -42,6 +63,7 @@ export const authOptions = {
     //   }
     // })
   ],
+  // adapter: FirebaseAdapter(firebase.firestore()),
   pages: {
     signin: "/signin",
     signout: "/signout",

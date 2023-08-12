@@ -1,72 +1,802 @@
 [
   {
-    "firstName": "Joan",
-    "lastName": "Jones",
-    "idNumber": "711977",
-    "isStudent": true,
-    "currentReadingLevel": "G"
-  },
-  {
-    "firstName": "Jane",
-    "lastName": "Johnson",
-    "idNumber": "3049797",
-    "isStudent": false,
-    "currentReadingLevel": "J"
-  },
-  {
     "firstName": "Sarah",
-    "lastName": "Doe",
-    "idNumber": "4865281",
-    "isStudent": false,
-    "currentReadingLevel": "G"
-  },
-  {
-    "firstName": "Emily",
-    "lastName": "Smith",
-    "idNumber": "192652",
+    "lastName": "Milly",
+    "idNumber": "7413252",
     "isStudent": true,
-    "currentReadingLevel": "G"
-  },
-  {
-    "firstName": "Richard",
-    "lastName": "Doe",
-    "idNumber": "9399380",
-    "isStudent": false,
-    "currentReadingLevel": "H"
-  },
-  {
-    "firstName": "Sarah",
-    "lastName": "Jones",
-    "idNumber": "8764756",
-    "isStudent": false,
-    "currentReadingLevel": "H"
+    "currentReadingLevel": "C",
+    "email": "7413252@dallasisd.org"
   },
   {
     "firstName": "Richard",
     "lastName": "Brown",
-    "idNumber": "3607715",
+    "idNumber": "5770163",
+    "isStudent": false,
+    "currentReadingLevel": "B",
+    "email": "5770163@dallasisd.org"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Jones",
+    "idNumber": "1889322",
+    "isStudent": false,
+    "currentReadingLevel": "E",
+    "email": "1889322@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Milly",
+    "idNumber": "8262627",
+    "isStudent": false,
+    "currentReadingLevel": "I",
+    "email": "8262627@dallasisd.org"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Ortiz",
+    "idNumber": "8296904",
+    "isStudent": false,
+    "currentReadingLevel": "B",
+    "email": "8296904@dallasisd.org"
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Gomez",
+    "idNumber": "1203872",
     "isStudent": true,
-    "currentReadingLevel": "C"
+    "currentReadingLevel": "C",
+    "email": "1203872@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Smith",
+    "idNumber": "2326023",
+    "isStudent": false,
+    "currentReadingLevel": "D",
+    "email": "2326023@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Milly",
+    "idNumber": "8128138",
+    "isStudent": false,
+    "currentReadingLevel": "A",
+    "email": "8128138@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Smith",
+    "idNumber": "8656689",
+    "isStudent": true,
+    "currentReadingLevel": "E",
+    "email": "8656689@dallasisd.org"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "idNumber": "1667203",
+    "isStudent": true,
+    "currentReadingLevel": "D",
+    "email": "1667203@dallasisd.org"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "idNumber": "30832",
+    "isStudent": true,
+    "currentReadingLevel": "C",
+    "email": "30832@dallasisd.org"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Jones",
+    "idNumber": "347817",
+    "isStudent": false,
+    "currentReadingLevel": "J",
+    "email": "347817@dallasisd.org"
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Jones",
+    "idNumber": "8353020",
+    "isStudent": true,
+    "currentReadingLevel": "F",
+    "email": "8353020@dallasisd.org"
   },
   {
     "firstName": "Charles",
     "lastName": "Gomez",
-    "idNumber": "4920282",
+    "idNumber": "7001558",
     "isStudent": false,
-    "currentReadingLevel": "B"
+    "currentReadingLevel": "C",
+    "email": "7001558@dallasisd.org"
   },
   {
-    "firstName": "Joan",
+    "firstName": "John",
     "lastName": "Gomez",
-    "idNumber": "2056874",
+    "idNumber": "925082",
     "isStudent": true,
-    "currentReadingLevel": "J"
+    "currentReadingLevel": "H",
+    "email": "925082@dallasisd.org"
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Gomez",
+    "idNumber": "2495728",
+    "isStudent": true,
+    "currentReadingLevel": "E",
+    "email": "2495728@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Doe",
+    "idNumber": "7193039",
+    "isStudent": true,
+    "currentReadingLevel": "G",
+    "email": "7193039@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "idNumber": "1020983",
+    "isStudent": true,
+    "currentReadingLevel": "G",
+    "email": "1020983@dallasisd.org"
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Smith",
+    "idNumber": "9260455",
+    "isStudent": false,
+    "currentReadingLevel": "D",
+    "email": "9260455@dallasisd.org"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Brown",
+    "idNumber": "2721837",
+    "isStudent": true,
+    "currentReadingLevel": "F",
+    "email": "2721837@dallasisd.org"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Ortiz",
+    "idNumber": "3112521",
+    "isStudent": false,
+    "currentReadingLevel": "E",
+    "email": "3112521@dallasisd.org"
   },
   {
     "firstName": "David",
-    "lastName": "Doe",
-    "idNumber": "7259117",
+    "lastName": "Ortiz",
+    "idNumber": "1017878",
+    "isStudent": false,
+    "currentReadingLevel": "B",
+    "email": "1017878@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Ortiz",
+    "idNumber": "6891274",
     "isStudent": true,
-    "currentReadingLevel": "J"
+    "currentReadingLevel": "F",
+    "email": "6891274@dallasisd.org"
+  },
+  {
+    "firstName": "Joan",
+    "lastName": "Doe",
+    "idNumber": "4474607",
+    "isStudent": true,
+    "currentReadingLevel": "A",
+    "email": "4474607@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Ortiz",
+    "idNumber": "1651951",
+    "isStudent": false,
+    "currentReadingLevel": "C",
+    "email": "1651951@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Brown",
+    "idNumber": "8981702",
+    "isStudent": false,
+    "currentReadingLevel": "C",
+    "email": "8981702@dallasisd.org"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Milly",
+    "idNumber": "3276670",
+    "isStudent": false,
+    "currentReadingLevel": "J",
+    "email": "3276670@dallasisd.org"
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Ortiz",
+    "idNumber": "630169",
+    "isStudent": false,
+    "currentReadingLevel": "A",
+    "email": "630169@dallasisd.org"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Milly",
+    "idNumber": "6061159",
+    "isStudent": false,
+    "currentReadingLevel": "G",
+    "email": "6061159@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Johnson",
+    "idNumber": "3214253",
+    "isStudent": true,
+    "currentReadingLevel": "A",
+    "email": "3214253@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Brown",
+    "idNumber": "1680979",
+    "isStudent": true,
+    "currentReadingLevel": "C",
+    "email": "1680979@dallasisd.org"
+  },
+  {
+    "firstName": "Joan",
+    "lastName": "Brown",
+    "idNumber": "8065882",
+    "isStudent": true,
+    "currentReadingLevel": "A",
+    "email": "8065882@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "idNumber": "4833945",
+    "isStudent": true,
+    "currentReadingLevel": "D",
+    "email": "4833945@dallasisd.org"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Jones",
+    "idNumber": "1162027",
+    "isStudent": true,
+    "currentReadingLevel": "C",
+    "email": "1162027@dallasisd.org"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Gomez",
+    "idNumber": "9281945",
+    "isStudent": true,
+    "currentReadingLevel": "B",
+    "email": "9281945@dallasisd.org"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Smith",
+    "idNumber": "587834",
+    "isStudent": false,
+    "currentReadingLevel": "G",
+    "email": "587834@dallasisd.org"
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Smith",
+    "idNumber": "1639243",
+    "isStudent": true,
+    "currentReadingLevel": "B",
+    "email": "1639243@dallasisd.org"
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Smith",
+    "idNumber": "72755",
+    "isStudent": false,
+    "currentReadingLevel": "A",
+    "email": "72755@dallasisd.org"
+  },
+  {
+    "firstName": "Joan",
+    "lastName": "Milly",
+    "idNumber": "4658021",
+    "isStudent": false,
+    "currentReadingLevel": "J",
+    "email": "4658021@dallasisd.org"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Gomez",
+    "idNumber": "6580005",
+    "isStudent": false,
+    "currentReadingLevel": "C",
+    "email": "6580005@dallasisd.org"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Brown",
+    "idNumber": "5859218",
+    "isStudent": false,
+    "currentReadingLevel": "I",
+    "email": "5859218@dallasisd.org"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "idNumber": "4789137",
+    "isStudent": false,
+    "currentReadingLevel": "G",
+    "email": "4789137@dallasisd.org"
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "idNumber": "3959836",
+    "isStudent": true,
+    "currentReadingLevel": "H",
+    "email": "3959836@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Gomez",
+    "idNumber": "4492566",
+    "isStudent": false,
+    "currentReadingLevel": "I",
+    "email": "4492566@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Brown",
+    "idNumber": "1533961",
+    "isStudent": false,
+    "currentReadingLevel": "G",
+    "email": "1533961@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Johnson",
+    "idNumber": "7574715",
+    "isStudent": true,
+    "currentReadingLevel": "D",
+    "email": "7574715@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Milly",
+    "idNumber": "7221068",
+    "isStudent": false,
+    "currentReadingLevel": "A",
+    "email": "7221068@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Gomez",
+    "idNumber": "2196416",
+    "isStudent": false,
+    "currentReadingLevel": "D",
+    "email": "2196416@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Gomez",
+    "idNumber": "4921436",
+    "isStudent": false,
+    "currentReadingLevel": "E",
+    "email": "4921436@dallasisd.org"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Gomez",
+    "idNumber": "8837595",
+    "isStudent": false,
+    "currentReadingLevel": "G",
+    "email": "8837595@dallasisd.org"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Brown",
+    "idNumber": "7330110",
+    "isStudent": true,
+    "currentReadingLevel": "G",
+    "email": "7330110@dallasisd.org"
+  },
+  {
+    "firstName": "Joan",
+    "lastName": "Milly",
+    "idNumber": "7920326",
+    "isStudent": true,
+    "currentReadingLevel": "H",
+    "email": "7920326@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Smith",
+    "idNumber": "3070398",
+    "isStudent": true,
+    "currentReadingLevel": "H",
+    "email": "3070398@dallasisd.org"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Gomez",
+    "idNumber": "5006218",
+    "isStudent": false,
+    "currentReadingLevel": "E",
+    "email": "5006218@dallasisd.org"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Brown",
+    "idNumber": "6211770",
+    "isStudent": true,
+    "currentReadingLevel": "G",
+    "email": "6211770@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Doe",
+    "idNumber": "6862534",
+    "isStudent": true,
+    "currentReadingLevel": "F",
+    "email": "6862534@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Smith",
+    "idNumber": "2687816",
+    "isStudent": true,
+    "currentReadingLevel": "A",
+    "email": "2687816@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Milly",
+    "idNumber": "3140023",
+    "isStudent": true,
+    "currentReadingLevel": "G",
+    "email": "3140023@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Ortiz",
+    "idNumber": "2143174",
+    "isStudent": false,
+    "currentReadingLevel": "J",
+    "email": "2143174@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Ortiz",
+    "idNumber": "1800511",
+    "isStudent": true,
+    "currentReadingLevel": "B",
+    "email": "1800511@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Milly",
+    "idNumber": "2198636",
+    "isStudent": false,
+    "currentReadingLevel": "H",
+    "email": "2198636@dallasisd.org"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Ortiz",
+    "idNumber": "4215158",
+    "isStudent": false,
+    "currentReadingLevel": "D",
+    "email": "4215158@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Johnson",
+    "idNumber": "5984674",
+    "isStudent": false,
+    "currentReadingLevel": "C",
+    "email": "5984674@dallasisd.org"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Johnson",
+    "idNumber": "5920007",
+    "isStudent": true,
+    "currentReadingLevel": "C",
+    "email": "5920007@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Milly",
+    "idNumber": "5169486",
+    "isStudent": false,
+    "currentReadingLevel": "F",
+    "email": "5169486@dallasisd.org"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Ortiz",
+    "idNumber": "8757275",
+    "isStudent": false,
+    "currentReadingLevel": "A",
+    "email": "8757275@dallasisd.org"
+  },
+  {
+    "firstName": "Joan",
+    "lastName": "Milly",
+    "idNumber": "5572710",
+    "isStudent": false,
+    "currentReadingLevel": "C",
+    "email": "5572710@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Smith",
+    "idNumber": "902021",
+    "isStudent": false,
+    "currentReadingLevel": "E",
+    "email": "902021@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Brown",
+    "idNumber": "383034",
+    "isStudent": false,
+    "currentReadingLevel": "I",
+    "email": "383034@dallasisd.org"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Milly",
+    "idNumber": "388722",
+    "isStudent": false,
+    "currentReadingLevel": "F",
+    "email": "388722@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Ortiz",
+    "idNumber": "1740090",
+    "isStudent": false,
+    "currentReadingLevel": "A",
+    "email": "1740090@dallasisd.org"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Jones",
+    "idNumber": "7380820",
+    "isStudent": true,
+    "currentReadingLevel": "J",
+    "email": "7380820@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Brown",
+    "idNumber": "4729806",
+    "isStudent": false,
+    "currentReadingLevel": "B",
+    "email": "4729806@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "idNumber": "6379421",
+    "isStudent": true,
+    "currentReadingLevel": "A",
+    "email": "6379421@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Johnson",
+    "idNumber": "3015971",
+    "isStudent": false,
+    "currentReadingLevel": "C",
+    "email": "3015971@dallasisd.org"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Jones",
+    "idNumber": "2004025",
+    "isStudent": true,
+    "currentReadingLevel": "B",
+    "email": "2004025@dallasisd.org"
+  },
+  {
+    "firstName": "Joan",
+    "lastName": "Jones",
+    "idNumber": "8301980",
+    "isStudent": true,
+    "currentReadingLevel": "A",
+    "email": "8301980@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "idNumber": "4635724",
+    "isStudent": true,
+    "currentReadingLevel": "B",
+    "email": "4635724@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Jones",
+    "idNumber": "3772796",
+    "isStudent": true,
+    "currentReadingLevel": "G",
+    "email": "3772796@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Milly",
+    "idNumber": "6916455",
+    "isStudent": true,
+    "currentReadingLevel": "D",
+    "email": "6916455@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Jones",
+    "idNumber": "7119734",
+    "isStudent": false,
+    "currentReadingLevel": "A",
+    "email": "7119734@dallasisd.org"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Milly",
+    "idNumber": "8670890",
+    "isStudent": false,
+    "currentReadingLevel": "C",
+    "email": "8670890@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Ortiz",
+    "idNumber": "1513453",
+    "isStudent": true,
+    "currentReadingLevel": "D",
+    "email": "1513453@dallasisd.org"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Smith",
+    "idNumber": "7327625",
+    "isStudent": false,
+    "currentReadingLevel": "H",
+    "email": "7327625@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Gomez",
+    "idNumber": "5841959",
+    "isStudent": false,
+    "currentReadingLevel": "D",
+    "email": "5841959@dallasisd.org"
+  },
+  {
+    "firstName": "Joan",
+    "lastName": "Ortiz",
+    "idNumber": "9697100",
+    "isStudent": false,
+    "currentReadingLevel": "E",
+    "email": "9697100@dallasisd.org"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Brown",
+    "idNumber": "1556048",
+    "isStudent": true,
+    "currentReadingLevel": "I",
+    "email": "1556048@dallasisd.org"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Jones",
+    "idNumber": "4033098",
+    "isStudent": false,
+    "currentReadingLevel": "J",
+    "email": "4033098@dallasisd.org"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Smith",
+    "idNumber": "425459",
+    "isStudent": true,
+    "currentReadingLevel": "E",
+    "email": "425459@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Smith",
+    "idNumber": "8464431",
+    "isStudent": false,
+    "currentReadingLevel": "H",
+    "email": "8464431@dallasisd.org"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Jones",
+    "idNumber": "4745507",
+    "isStudent": true,
+    "currentReadingLevel": "C",
+    "email": "4745507@dallasisd.org"
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Jones",
+    "idNumber": "2366973",
+    "isStudent": true,
+    "currentReadingLevel": "G",
+    "email": "2366973@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Doe",
+    "idNumber": "8252158",
+    "isStudent": false,
+    "currentReadingLevel": "J",
+    "email": "8252158@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Doe",
+    "idNumber": "2168229",
+    "isStudent": false,
+    "currentReadingLevel": "A",
+    "email": "2168229@dallasisd.org"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Ortiz",
+    "idNumber": "1913109",
+    "isStudent": true,
+    "currentReadingLevel": "F",
+    "email": "1913109@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Ortiz",
+    "idNumber": "3146391",
+    "isStudent": true,
+    "currentReadingLevel": "I",
+    "email": "3146391@dallasisd.org"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Johnson",
+    "idNumber": "7174686",
+    "isStudent": true,
+    "currentReadingLevel": "A",
+    "email": "7174686@dallasisd.org"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Doe",
+    "idNumber": "7563826",
+    "isStudent": true,
+    "currentReadingLevel": "D",
+    "email": "7563826@dallasisd.org"
+  },
+  {
+    "firstName": "Joan",
+    "lastName": "Smith",
+    "idNumber": "1993598",
+    "isStudent": false,
+    "currentReadingLevel": "G",
+    "email": "1993598@dallasisd.org"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Brown",
+    "idNumber": "4392098",
+    "isStudent": true,
+    "currentReadingLevel": "H",
+    "email": "4392098@dallasisd.org"
   }
 ]
