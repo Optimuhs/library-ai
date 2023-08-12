@@ -1,32 +1,35 @@
-import { GetServerSidePropsContext, InferGetServerSidePropsType } from "next";
-import { getServerSession } from "next-auth";
-import { signOut } from "next-auth/react";
-import { authOptions } from "../api/auth/[...nextauth]";
+import { useEffect, useState } from "react";
+import { Header } from "../../components/Header";
 
-export default function Content({
-  name,
-}: InferGetServerSidePropsType<typeof getServerSideProps>) {
+type User = { id: number; firstName: string; lastName: string };
+
+export default function Content() {
+  const [userData, setUserData] = useState<User[]>([]);
+
+  useEffect(() => {
+    async function getData() {
+      try {
+        const data: User[] = await getAllUsers();
+
+        setUserData(data);
+      } catch (err) {
+        console.log(err);
+      }
+    }
+    getData();
+  }, []);
+
   return (
     <div>
-      <h1>Welcome to the libaray</h1>
-      <p>Here is some content {name}</p>
-      <button onClick={() => signOut({ callbackUrl: "/signin" })}>
-        SignOut
-      </button>
+      <Header />
     </div>
   );
 }
 
-// Context automatically provided by next when this function is called
-export async function getServerSideProps(context: GetServerSidePropsContext) {
-  const session = await getServerSession(context.req, context.res, authOptions);
-  if (!session) {
-    return {
-      redirect: { destination: "/signin" },
-    };
-  } else {
-    const { user } = session;
-    console.log(user);
-    return { props: { name: user?.name } };
+async function getAllUsers() {
+  const res = await fetch(`/api/getAllUsers`);
+  if (!res.ok) {
+    console.log(res);
   }
+  return res.json();
 }

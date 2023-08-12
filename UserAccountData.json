@@ -1,112 +1,72 @@
 [
   {
     "firstName": "Joan",
-    "lastName": "Smith",
-    "idNumber": "837862",
-    "isStudent": false,
-    "currentReadingLevel": "F",
-    "checkedOutBooks": {
-      "create": []
-    },
-    "checkedOutBooksId": []
-  },
-  {
-    "firstName": "David",
     "lastName": "Jones",
-    "idNumber": "704241",
-    "isStudent": false,
-    "currentReadingLevel": "H",
-    "checkedOutBooks": {
-      "create": []
-    },
-    "checkedOutBooksId": []
+    "idNumber": "711977",
+    "isStudent": true,
+    "currentReadingLevel": "G"
   },
   {
-    "firstName": "David",
+    "firstName": "Jane",
     "lastName": "Johnson",
-    "idNumber": "4443232",
+    "idNumber": "3049797",
     "isStudent": false,
-    "currentReadingLevel": "I",
-    "checkedOutBooks": {
-      "create": []
-    },
-    "checkedOutBooksId": []
-  },
-  {
-    "firstName": "Richard",
-    "lastName": "Milly",
-    "idNumber": "2234617",
-    "isStudent": true,
-    "currentReadingLevel": "I",
-    "checkedOutBooks": {
-      "create": []
-    },
-    "checkedOutBooksId": []
-  },
-  {
-    "firstName": "David",
-    "lastName": "Doe",
-    "idNumber": "2459797",
-    "isStudent": true,
-    "currentReadingLevel": "D",
-    "checkedOutBooks": {
-      "create": []
-    },
-    "checkedOutBooksId": []
-  },
-  {
-    "firstName": "John",
-    "lastName": "Gomez",
-    "idNumber": "7486732",
-    "isStudent": true,
-    "currentReadingLevel": "C",
-    "checkedOutBooks": {
-      "create": []
-    },
-    "checkedOutBooksId": []
+    "currentReadingLevel": "J"
   },
   {
     "firstName": "Sarah",
     "lastName": "Doe",
-    "idNumber": "7144448",
+    "idNumber": "4865281",
+    "isStudent": false,
+    "currentReadingLevel": "G"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Smith",
+    "idNumber": "192652",
     "isStudent": true,
-    "currentReadingLevel": "G",
-    "checkedOutBooks": {
-      "create": []
-    },
-    "checkedOutBooksId": []
+    "currentReadingLevel": "G"
   },
   {
-    "firstName": "Emily",
+    "firstName": "Richard",
     "lastName": "Doe",
-    "idNumber": "8580683",
+    "idNumber": "9399380",
     "isStudent": false,
-    "currentReadingLevel": "B",
-    "checkedOutBooks": {
-      "create": []
-    },
-    "checkedOutBooksId": []
+    "currentReadingLevel": "H"
   },
   {
-    "firstName": "Emily",
-    "lastName": "Johnson",
-    "idNumber": "4355426",
+    "firstName": "Sarah",
+    "lastName": "Jones",
+    "idNumber": "8764756",
     "isStudent": false,
-    "currentReadingLevel": "B",
-    "checkedOutBooks": {
-      "create": []
-    },
-    "checkedOutBooksId": []
+    "currentReadingLevel": "H"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Brown",
+    "idNumber": "3607715",
+    "isStudent": true,
+    "currentReadingLevel": "C"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Gomez",
+    "idNumber": "4920282",
+    "isStudent": false,
+    "currentReadingLevel": "B"
+  },
+  {
+    "firstName": "Joan",
+    "lastName": "Gomez",
+    "idNumber": "2056874",
+    "isStudent": true,
+    "currentReadingLevel": "J"
   },
   {
     "firstName": "David",
     "lastName": "Doe",
-    "idNumber": "2256247",
+    "idNumber": "7259117",
     "isStudent": true,
-    "currentReadingLevel": "C",
-    "checkedOutBooks": {
-      "create": []
-    },
-    "checkedOutBooksId": []
+    "currentReadingLevel": "J"
   }
 ]

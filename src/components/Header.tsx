@@ -1,5 +1,5 @@
 import clsx from "clsx";
-export const Header = () => {
+export function Header() {
   return (
     <div
       className={clsx(
@@ -13,4 +13,4 @@ export const Header = () => {
       <h1>Welcome to the Blanton Library Database</h1>
     </div>
   );
-};
+}
