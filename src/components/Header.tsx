@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import { SearchBox } from "./Content/Search";
 export function Header() {
   return (
     <div
@@ -11,6 +12,7 @@ export function Header() {
       )}
     >
       <h1>Welcome to the Blanton Library Database</h1>
+      <SearchBox />
     </div>
   );
 }

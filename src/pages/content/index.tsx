@@ -2,6 +2,7 @@ import clsx from "clsx";
 import { SignOutButton } from "components/Content/SignoutButton";
 import { getServerSession } from "next-auth";
 import { getSession } from "next-auth/react";
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import "../../app/globals.css";
 import { Header } from "../../components/Header";
@@ -12,24 +13,29 @@ type User = {
   firstName: string;
   lastName: string;
   idNumber: string;
+  email: string;
+};
+
+type QueryError = {
+  status: number;
+  message: string;
 };
 
 export default function Content() {
+  const router = useRouter();
   const [userData, setUserData] = useState<User>();
 
   useEffect(() => {
     async function getData() {
       try {
-        // const data: User[] = await getAllUsers();
-        const data: User = await getSpecificUser();
+        const data = await getSpecificUser();
         setUserData(data);
       } catch (err) {
-        console.log(err);
+        router.push(`/${err.status}`);
       }
     }
-
     getData();
-  }, []);
+  }, [router]);
 
   return (
     <div className={clsx("flex", "flex-col")}>
@@ -48,37 +54,20 @@ export default function Content() {
   );
 }
 
-async function getAllUsers() {
-  const session = await getSession();
-  console.log(session);
-  try {
-    if (session) {
-      const res = await fetch(`/api/getAllUsers`);
-      if (!res.ok) {
-        console.log(res);
-      }
-      return res.json();
-    }
-  } catch (err) {
-    return err;
-  }
-}
-
 async function getSpecificUser() {
   const session = await getSession();
-
   try {
     if (session) {
       const res = await fetch(
         `/api/getSpecificUser?email=${session?.user?.email}`
       );
       if (!res.ok) {
-        console.log(res);
+        throw new Error(`Response status: ${res.status}`);
       }
       return res.json();
     }
   } catch (err) {
-    return err;
+    throw err;
   }
 }
 
@@ -91,6 +80,7 @@ export async function getServerSideProps({ req, res }) {
         redirect: { destination: "/" },
       };
     }
+
     return {
       props: {
         session: session,
