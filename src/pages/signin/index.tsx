@@ -7,8 +7,8 @@ export default function SignIn({
   providers,
 }: InferGetServerSidePropsType<typeof getServerSideProps>) {
   return (
-    <>
-      <h1>Hello</h1>
+    <div>
+      <h1>Sign in to checkout books!</h1>
       {Object.values(providers).map((provider) => (
         <div key={provider.name}>
           <button onClick={() => signIn(provider.id)}>
@@ -16,7 +16,7 @@ export default function SignIn({
           </button>
         </div>
       ))}
-    </>
+    </div>
   );
 }
 
@@ -25,7 +25,7 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
 
   if (session) {
     return {
-      redirect: { destination: `/content` },
+      redirect: { destination: `/checkout` },
     };
   }
 

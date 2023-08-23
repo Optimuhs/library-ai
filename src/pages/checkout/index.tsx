@@ -1,5 +1,7 @@
 import clsx from "clsx";
+import { SignInButton } from "components/Content/SigninButton";
 import { SignOutButton } from "components/Content/SignoutButton";
+import { Checkout } from "components/Workflow/Checkout";
 import { getServerSession } from "next-auth";
 import { getSession } from "next-auth/react";
 import { useRouter } from "next/router";
@@ -7,7 +9,6 @@ import { useEffect, useState } from "react";
 import "../../app/globals.css";
 import { Header } from "../../components/Header";
 import { authOptions } from "../api/auth/[...nextauth]";
-
 type User = {
   id: number;
   firstName: string;
@@ -16,15 +17,9 @@ type User = {
   email: string;
 };
 
-type QueryError = {
-  status: number;
-  message: string;
-};
-
-export default function Content() {
+export default function CheckoutPage() {
   const router = useRouter();
   const [userData, setUserData] = useState<User>();
-
   useEffect(() => {
     async function getData() {
       try {
@@ -42,14 +37,21 @@ export default function Content() {
       <Header />
       <div
         className={clsx("flex", "flex-row", "items-center", "justify-center")}
-      >
-        <SignOutButton />
-      </div>
+      ></div>
       <div>
         <div
           key={userData?.id}
         >{`${userData?.firstName} ${userData?.idNumber} `}</div>
       </div>
+
+      {userData != undefined ? (
+        <div>
+          {" "}
+          <Checkout /> <SignOutButton />{" "}
+        </div>
+      ) : (
+        <SignInButton />
+      )}
     </div>
   );
 }
