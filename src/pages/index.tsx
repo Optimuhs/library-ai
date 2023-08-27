@@ -29,7 +29,6 @@ export default function Home() {
         const response = await fetch("/api/getAllBooks");
         if (response.ok) {
           const data = await response.json();
-          console.log(data, "data");
           setBooks(data); // Update the books state
         } else {
           console.error("Error fetching books:", response.statusText);

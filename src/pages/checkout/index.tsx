@@ -79,7 +79,7 @@ export async function getServerSideProps({ req, res }) {
   try {
     if (!session) {
       return {
-        redirect: { destination: "/" },
+        redirect: { destination: "/signin" },
       };
     }
 
