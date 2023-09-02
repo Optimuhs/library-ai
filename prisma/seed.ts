@@ -20,7 +20,14 @@ async function generateUsers() {
 
       for (const userData of jsonData) {
         const user = await prisma.user.create({
-          data: userData,
+          data: {
+            firstName: userData.firstName,
+            lastName: userData.lastName,
+            idNumber: userData.idNumber,
+            isStudent: userData.isStudent,
+            currentReadingLevel: userData.currentReadingLevel,
+            email: userData.email,
+          },
         });
         console.log(user);
       }

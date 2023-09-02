@@ -37,7 +37,7 @@ CREATE TABLE "Rentals" (
     "dueDate" TIMESTAMP(3),
     "checkedInAt" TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,
     "borrowerId" INTEGER NOT NULL,
-
+    
     CONSTRAINT "Rentals_pkey" PRIMARY KEY ("id")
 );
 

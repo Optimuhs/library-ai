@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import "../../app/globals.css";
 import { Header } from "../../components/Header";
 import { authOptions } from "../api/auth/[...nextauth]";
+
 type User = {
   id: number;
   firstName: string;
@@ -47,7 +48,7 @@ export default function CheckoutPage() {
       {userData != undefined ? (
         <div>
           {" "}
-          <Checkout /> <SignOutButton />{" "}
+          <Checkout props={userData.id} /> <SignOutButton />{" "}
         </div>
       ) : (
         <SignInButton />
@@ -58,6 +59,7 @@ export default function CheckoutPage() {
 
 async function getSpecificUser() {
   const session = await getSession();
+
   try {
     if (session) {
       const res = await fetch(

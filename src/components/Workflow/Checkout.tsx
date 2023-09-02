@@ -1,16 +1,18 @@
 import { clsx } from "clsx";
 import { useState } from "react";
-export const Checkout = () => {
+import { BookComp } from "./BookComp";
+
+export const Checkout = ({ props }) => {
   const [searchRes, setSearchRes] = useState<string>("");
   const [searchResult, setSearchResult] = useState<any>(null); // State for storing the response result
   const [error, setError] = useState<string | null>(null); // State for storing error message
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchRes(event.target.value);
-    checkoutHandler(event.target.value);
+    SearchHandler(event.target.value);
   };
 
-  const checkoutHandler = async (e: string) => {
+  const SearchHandler = async (e: string) => {
     try {
       const response = await fetch(
         `/api/getSpecificBook?bookString=${searchRes}`
@@ -48,11 +50,12 @@ export const Checkout = () => {
         searchResult.map((elem) => (
           <div key={elem.id} className={clsx("text-white")}>
             {/* Render specific properties of the element */}
-            <div className={clsx("p-5")}>
-              <p>
-                ISBN: {elem.isbn} Title: {elem.title}
-              </p>
-            </div>
+            <BookComp
+              title={elem.title}
+              isbn={elem.isbn}
+              id={elem.id}
+              userid={props}
+            />
           </div>
         ))}
       {error && <div>Error: {error}</div>}

@@ -15,14 +15,30 @@ export default async function handler(
       const isNumber = containsOnlyNumbers(bookString);
       // If isbn
       if (isNumber) {
-        const data = await prisma.book.findFirst({
-          where: {
-            isbn: bookString,
-          },
-        });
+        // const data = await prisma.book.findFirst({
+        //   where: {
+        //     isbn: bookString,
+        //   },
+        // });
 
-        if (!data) {
-          return res.status(404).json({ error: "Item not found" });
+        if (bookString.trim() !== "") {
+          const data = await prisma.book.findMany({
+            where: {
+              isbn: {
+                contains: bookString,
+              },
+            },
+          });
+
+          if (!data || data.length === 0) {
+            return res.status(404).json({ error: "No matches found" });
+          }
+
+          return res.status(200).json(data);
+
+          if (!data) {
+            return res.status(404).json({ error: "Item not found" });
+          }
         }
       }
       // Ensure defined
