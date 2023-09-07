@@ -20,7 +20,7 @@ model User {
   currentReadingLevel String
   email               String      @unique
   accountPrivileges   Priviliges? @relation("UserPrivileges")
-  checkedOutBooks     Rentals?
+  checkedOutBooks     Rentals[]
 
   @@map("users")
 }
@@ -31,7 +31,7 @@ model Book {
   reservationId  Int?
   bookLevel      String
   bookLevelColor String
-  rentalId       Int?
+  rentalId       Int?         @unique 
   shelfLocation  String
   isbn           String
   rented         Rentals?     @relation("BookCheckedOut", fields: [rentalId], references: [id])
@@ -71,14 +71,16 @@ model Priviliges {
 }
 
 model Rentals {
-  id           Int       @id @default(autoincrement())
-  checkedOut   Boolean   @default(false)
-  checkedOutAt DateTime? @default(now())
+  id           Int        @id @default(autoincrement())
+  checkedOut   Boolean    @default(false)
+  checkedOutAt DateTime?  @default(now())
   dueDate      DateTime?
-  checkedInAt  DateTime? @default(now())
-  borrowerId   Int       @unique
-  booksOut     Book[]    @relation("BookCheckedOut")
-  checkedOutBy User      @relation(fields: [borrowerId], references: [id])
-  booksOutId   Int[]
+  checkedInAt  DateTime?  @default(now())
+  borrowerId   Int        
+  bookOut      Book?      @relation("BookCheckedOut")
+  checkedOutBy User       @relation(fields: [borrowerId], references: [id])
+  booksOutId   Int     // Array of book IDs in the rental
+
   @@map("rentals")
 }
+

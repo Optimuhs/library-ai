@@ -1,6 +1,6 @@
 import clsx from "clsx";
-import { SignInButton } from "components/Content/SigninButton";
-import { SignOutButton } from "components/Content/SignoutButton";
+import { SignInButton } from "components/Layout/SigninButton";
+import { SignOutButton } from "components/Layout/SignoutButton";
 import { Checkout } from "components/Workflow/Checkout";
 import { getServerSession } from "next-auth";
 import { getSession } from "next-auth/react";

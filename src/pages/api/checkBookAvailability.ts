@@ -1,20 +1,15 @@
-import type { NextApiRequest, NextApiResponse } from "next";
-import prisma from "../../../prisma/client";
+import { NextApiRequest, NextApiResponse } from "next";
+import prisma from "../../../prisma/client"; // Import your Prisma client
 
-export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
+async function handler(req: NextApiRequest, res: NextApiResponse) {
   const bookId = Number(req.query.id);
   const userId = Number(req.query.userid);
 
   try {
-    // Retrieve the rental record for the specific user
+    // Check if the book is already rented
     const rental = await prisma.rentals.findFirst({
       where: {
-        borrowerId: userId,
         booksOutId: bookId,
-        checkedOut: true,
       },
     });
 
@@ -43,15 +38,13 @@ export default async function handler(
       const resObject = { rental: newRental, update: updatedBook };
       return res.status(200).json(resObject);
     } else {
-      throw new Error(
-        `Book with ID ${bookId} is already rented by user with ID ${userId}`
-      );
+      throw new Error(`Book with ID ${bookId} is already rented by a user`);
     }
   } catch (error) {
-    console.error("Error renting book:", error);
-    // Do error handling
-    return res.status(500).json(error);
-  } finally {
-    await prisma.$disconnect();
+    // Handle the error and send an error response
+    console.error(error); // Log the error
+    res.status(400).json({ error: error.message });
   }
 }
+
+export default handler;

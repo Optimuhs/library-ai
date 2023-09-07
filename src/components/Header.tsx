@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { SearchBox } from "./Content/Search";
+import { SearchBox } from "./Layout/Search";
 export function Header() {
   return (
     <div

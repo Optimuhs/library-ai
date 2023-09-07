@@ -5,17 +5,33 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const id = Number(req.query.id);
+  const bookid = Number(req.query.bookid);
   const userId = Number(req.query.userId);
 
   try {
-    const updatedBook = await prisma.rentals.update({
+    const rental = await prisma.rentals.findFirst({
       where: {
-        id: id,
+        booksOutId: bookid,
+        checkedOut: true,
       },
-      data: {},
     });
-    console.log("Updated book:", updatedBook);
+
+    if (rental) {
+      const updateRental = await prisma.rentals.update({
+        where: {
+          id: rental.id,
+          borrowerId: rental.borrowerId,
+        },
+        data: {
+          checkedOut: false,
+          checkedInAt: new Date(),
+        },
+      });
+      const successResponse = { message: "Operation was successful" };
+      return res.status(200).json(successResponse);
+    } else {
+      return Error("Books is already checked in");
+    }
   } catch (error) {
     console.error("Error updating book:", error);
   } finally {
