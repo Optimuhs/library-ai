@@ -2,14 +2,16 @@ import { NextApiRequest, NextApiResponse } from "next";
 import prisma from "../../../prisma/client"; // Import your Prisma client
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
-  const bookId = Number(req.query.id);
-  const userId = Number(req.query.userid);
-
   try {
+    const bookId = Number(req.query.id);
+    const userId = Number(req.query.userid);
+    const bookIsbn = String(req.query.isbn);
+
     // Check if the book is already rented
     const rental = await prisma.rentals.findFirst({
       where: {
         booksOutId: bookId,
+        checkedOut: true,
       },
     });
 
@@ -20,8 +22,9 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
           checkedOut: true,
           checkedOutAt: new Date(),
           dueDate: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
-          borrowerId: userId,
+          borrowerId: userId, // Assign the correct 'userId' here
           booksOutId: bookId,
+          bookISBN: bookIsbn,
         },
       });
 

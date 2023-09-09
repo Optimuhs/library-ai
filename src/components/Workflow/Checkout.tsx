@@ -1,6 +1,6 @@
 import { clsx } from "clsx";
+import { BookComp } from "components/Workflow/BookComp";
 import { useState } from "react";
-import { BookComp } from "./BookComp";
 
 export const Checkout = ({ props }) => {
   const [searchRes, setSearchRes] = useState<string>("");

@@ -25,8 +25,9 @@ export const BookComp = (props: BookDataType) => {
 
   async function checkout() {
     try {
+      console.log("bclick", startingData);
       const res = await fetch(
-        `./api/checkBookAvailability?id=${startingData.id}&userid=${startingData.userid}`
+        `./api/checkBookAvailability?id=${startingData.id}&userid=${startingData.userid}&isbn=${startingData.isbn}`
       );
 
       if (res.ok) {
