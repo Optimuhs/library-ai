@@ -2,20 +2,34 @@ import { NextApiRequest, NextApiResponse } from "next";
 import prisma from "../../../prisma/client"; // Import your Prisma client
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
+  if (req.method !== "GET") {
+    return res.status(405).json({ error: "Method Not Allowed" });
+  }
   try {
     const bookId = Number(req.query.id);
     const userId = Number(req.query.userid);
     const bookIsbn = String(req.query.isbn);
+    const reserveTrue = Boolean(req.query?.reserveTrue);
+    const rentalTrue = Boolean(req.query?.rentalTrue);
 
     // Check if the book is already rented
     const rental = await prisma.rentals.findFirst({
       where: {
         booksOutId: bookId,
         checkedOut: true,
+        bookISBN: bookIsbn,
+      },
+    });
+    // Check if the book is already reserved
+    const reservation = await prisma.reservation.findFirst({
+      where: {
+        bookId: bookId,
+        pending: true,
+        bookISBN: bookIsbn,
       },
     });
 
-    if (!rental) {
+    if (!rental && rentalTrue) {
       // Handle the case where the rental record for the user doesn't exist
       const newRental = await prisma.rentals.create({
         data: {
@@ -40,8 +54,24 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
       console.log("Updated book:", updatedBook);
       const resObject = { rental: newRental, update: updatedBook };
       return res.status(200).json(resObject);
+    }
+
+    if (!reservation && reserveTrue) {
+      const newReservation = await prisma.reservation.create({
+        data: {
+          bookISBN: bookIsbn,
+          bookId: bookId,
+          pending: true,
+          reservationAt: new Date(),
+          userId: userId,
+        },
+      });
+      const resObject = { reservation: newReservation };
+      return res.status(200).json(resObject);
     } else {
-      throw new Error(`Book with ID ${bookId} is already rented by a user`);
+      const issue = rentalTrue && rental ? "rented" : "reserved";
+      throw new Error(`Book with ID ${bookId} is already ${issue} by a user`);
+      return res.status(400).json({ message: "book unavailable" });
     }
   } catch (error) {
     // Handle the error and send an error response

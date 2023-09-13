@@ -11,7 +11,7 @@ export const Navbar = () => {
           <Link href={"/checkin"}>
             <li>Checkin</li>
           </Link>
-          <Link href={"/reservation"}>
+          <Link href={"/reservations"}>
             <li>Reservations</li>
           </Link>
         </ul>

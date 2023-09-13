@@ -40,8 +40,9 @@ export const CheckinComponent = (props) => {
   };
 
   return (
-    <div>
-      <form onSubmit={CheckinHandler}>
+    <div className={clsx("flex", "flex-col", "m-10", "space-y-5")}>
+      <p>Enter your book ISBN to checkin your book</p>
+      <form onSubmit={CheckinHandler} className={clsx("space-x-5")}>
         <input
           className={clsx("text-black")}
           type="text"

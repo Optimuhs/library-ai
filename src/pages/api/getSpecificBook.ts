@@ -43,6 +43,7 @@ export default async function handler(
                 contains: bookString,
               },
               rentalId: null,
+              reservationId: null,
             },
           });
 

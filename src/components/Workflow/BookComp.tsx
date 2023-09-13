@@ -25,12 +25,13 @@ export const BookComp = (props: BookDataType) => {
 
   async function checkout() {
     try {
-      console.log("bclick", startingData);
-      const res = await fetch(
-        `./api/checkBookAvailability?id=${startingData.id}&userid=${startingData.userid}&isbn=${startingData.isbn}`
+      const response = await fetch(
+        `./api/checkBookAvailability?id=${startingData.id}&userid=${
+          startingData.userid
+        }&isbn=${startingData.isbn}&rentalTrue=${true}`
       );
-
-      if (res.ok) {
+      console.log(startingData.userid);
+      if (response.ok) {
         // If the checkout is successful, you can handle it here
         // For example, display a success message or update the UI
         setStatus({ message: "Checkout successful", error: false });
@@ -50,15 +51,40 @@ export const BookComp = (props: BookDataType) => {
     }
   }
 
+  async function reserve() {
+    try {
+      const response = await fetch(
+        `./api/checkBookAvailability?id=${startingData.id}&userid=${
+          startingData.userid
+        }&isbn=${startingData.isbn}&reserveTrue=${true}`
+      );
+      console.log(response, "res");
+      if (response.ok) {
+        setStatus({ message: "Reservation Successfull", error: false });
+      } else {
+        setStatus({
+          message: "The book is already reserved, try again later.",
+          error: true,
+        });
+      }
+    } catch (error) {
+      setStatus({
+        message: "An error occurred. Please try again later.",
+        error: true,
+      });
+    }
+  }
+
   return (
     <div className={clsx("p-5")}>
       <p>
         ISBN: {props.isbn} Title: {props.title}
       </p>
       <div onClick={() => checkout()}>Checkout</div>
+      <div onClick={() => reserve()}>Reserve</div>
       {status && (
         <div className={status.error ? "text-red-500" : "text-green-400"}>
-          {status.message}
+          {status?.message}
         </div>
       )}
     </div>

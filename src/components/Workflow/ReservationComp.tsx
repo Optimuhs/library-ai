@@ -1,8 +1,8 @@
-import { clsx } from "clsx";
-import { BookComp } from "components/Workflow/BookComp";
+import clsx from "clsx";
 import { useState } from "react";
+import { BookComp } from "./BookComp";
 
-export const Checkout = ({ props }) => {
+export const ReservationComp = ({ props }) => {
   const [searchRes, setSearchRes] = useState<string>("");
   const [searchResult, setSearchResult] = useState<any>(null); // State for storing the response result
   const [error, setError] = useState<string | null>(null); // State for storing error message
@@ -15,7 +15,7 @@ export const Checkout = ({ props }) => {
   const SearchHandler = async (e: string) => {
     try {
       const response = await fetch(
-        `/api/getSpecificBook?bookString=${searchRes}`
+        `/api/getSpecificBook?bookString=${searchRes}&reserveTrue=${true}`
       );
 
       if (response.ok) {
@@ -35,30 +35,24 @@ export const Checkout = ({ props }) => {
 
   return (
     <div>
+      <h2>Reserve your book&apos;s here, enter the ISBN or Name of the book</h2>
       <div>
-        <p>Type the book's ISBN or Title to search the book for checkout</p>
+        <form>
+          <input type="text" onChange={handleInputChange}></input>
+        </form>
+        {searchResult &&
+          searchResult.map((elem) => (
+            <div key={elem.id} className={clsx("text-black")}>
+              {/* Render specific properties of the element */}
+              <BookComp
+                title={elem.title}
+                isbn={elem.isbn}
+                id={elem.id}
+                userid={props}
+              />
+            </div>
+          ))}
       </div>
-      <form>
-        <input
-          type="text"
-          placeholder="ISBN / Title"
-          onChange={handleInputChange}
-          className={clsx("text-black")}
-        />
-      </form>
-      {searchResult &&
-        searchResult.map((elem) => (
-          <div key={elem.id} className={clsx("text-white")}>
-            {/* Render specific properties of the element */}
-            <BookComp
-              title={elem.title}
-              isbn={elem.isbn}
-              id={elem.id}
-              userid={props}
-            />
-          </div>
-        ))}
-      {error && <div>Error: {error}</div>}
     </div>
   );
 };

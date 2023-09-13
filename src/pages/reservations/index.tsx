@@ -1,10 +1,11 @@
 import { Header } from "components/Header";
-import { CheckinComponent } from "components/Workflow/CheckinComp";
+import { ReservationComp } from "components/Workflow/ReservationComp";
 import { getServerSession } from "next-auth";
 import { getSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import { authOptions } from "pages/api/auth/[...nextauth]";
 import { useEffect, useState } from "react";
+
 type User = {
   id: number;
   firstName: string;
@@ -13,7 +14,7 @@ type User = {
   email: string;
 };
 
-export default function CheckinPage() {
+export default function ReservationsPage() {
   const router = useRouter();
   const [userData, setUserData] = useState<User>();
   useEffect(() => {
@@ -31,7 +32,10 @@ export default function CheckinPage() {
   return (
     <div>
       <Header />
-      <CheckinComponent userId={userData?.id} />
+      <div>
+        <h3>Reserve your books here!</h3>
+        <ReservationComp props={userData?.id} />
+      </div>
     </div>
   );
 }

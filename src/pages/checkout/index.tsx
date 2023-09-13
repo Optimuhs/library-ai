@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import { SignInButton } from "components/Layout/SigninButton";
 import { SignOutButton } from "components/Layout/SignoutButton";
-import { Checkout } from "components/Workflow/Checkout";
+import { Checkout } from "components/Workflow/CheckoutComp";
 import { getServerSession } from "next-auth";
 import { getSession } from "next-auth/react";
 import { useRouter } from "next/router";
