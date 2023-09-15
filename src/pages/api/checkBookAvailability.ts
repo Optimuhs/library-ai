@@ -29,7 +29,11 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
       },
     });
 
-    if (!rental && rentalTrue) {
+    if (
+      !rental &&
+      rentalTrue &&
+      (reservation?.userId == userId || !reservation)
+    ) {
       // Handle the case where the rental record for the user doesn't exist
       const newRental = await prisma.rentals.create({
         data: {
@@ -43,15 +47,26 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
       });
 
       console.log("New book rented:", newRental);
+      if (reservation?.userId == userId) {
+        const reserveUpdate = await prisma.reservation.update({
+          where: {
+            id: reservation.id,
+          },
+          data: {
+            pending: false,
+            reservationFulfilled: new Date(),
+          },
+        });
+      }
       // Update rental
       const updatedBook = await prisma.book.update({
         where: {
           id: bookId,
+          reservationId: null,
         },
-        data: { rentalId: newRental.id },
+        data: { rentalId: newRental.id, reservationId: null },
       });
 
-      console.log("Updated book:", updatedBook);
       const resObject = { rental: newRental, update: updatedBook };
       return res.status(200).json(resObject);
     }
@@ -64,6 +79,16 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
           pending: true,
           reservationAt: new Date(),
           userId: userId,
+          reservationExpiry: new Date(Date.now() + 3 * 24 * 60 * 60 * 1000),
+        },
+      });
+
+      const bookUpdate = await prisma.book.update({
+        where: {
+          id: bookId,
+        },
+        data: {
+          reservationId: newReservation.id,
         },
       });
       const resObject = { reservation: newReservation };

@@ -1,5 +1,6 @@
 import { Header } from "components/Header";
-import { ReservationComp } from "components/Workflow/ReservationComp";
+import { ConfirmRes } from "components/Workflow/Reservations/ConfirmedReservationComp";
+import { ReservationComp } from "components/Workflow/Reservations/ReservationComp";
 import { getServerSession } from "next-auth";
 import { getSession } from "next-auth/react";
 import { useRouter } from "next/router";
@@ -33,6 +34,10 @@ export default function ReservationsPage() {
     <div>
       <Header />
       <div>
+        <div>
+          <h3>View your reservations</h3>
+          <ConfirmRes props={userData?.id} />
+        </div>
         <h3>Reserve your books here!</h3>
         <ReservationComp props={userData?.id} />
       </div>

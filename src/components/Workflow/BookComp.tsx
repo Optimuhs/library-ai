@@ -23,6 +23,7 @@ export const BookComp = (props: BookDataType) => {
 
   const [status, setStatus] = useState<checkoutStatus | null>(null);
 
+  // Handle checkout url case
   async function checkout() {
     try {
       const response = await fetch(
@@ -51,6 +52,7 @@ export const BookComp = (props: BookDataType) => {
     }
   }
 
+  // Handle the reservation url case
   async function reserve() {
     try {
       const response = await fetch(
@@ -60,7 +62,7 @@ export const BookComp = (props: BookDataType) => {
       );
       console.log(response, "res");
       if (response.ok) {
-        setStatus({ message: "Reservation Successfull", error: false });
+        setStatus({ message: "Reservation Successful", error: false });
       } else {
         setStatus({
           message: "The book is already reserved, try again later.",
@@ -75,13 +77,41 @@ export const BookComp = (props: BookDataType) => {
     }
   }
 
+  // Get the current URL
+  const currentUrl = window.location.href;
+
+  // Conditionally render a button based on the URL
+  const renderButton = () => {
+    if (currentUrl.includes("/checkout")) {
+      // Render the button on a specific page
+      return (
+        <div
+          onClick={() => checkout()}
+          className={clsx("text-white", "border-black")}
+        >
+          Checkout
+        </div>
+      );
+    }
+    if (currentUrl.includes("/reservations")) {
+      // Render nothing on other pages
+      return (
+        <div
+          onClick={() => reserve()}
+          className={clsx("text-red-400", "border-black")}
+        >
+          Reserve
+        </div>
+      );
+    }
+  };
+
   return (
     <div className={clsx("p-5")}>
       <p>
         ISBN: {props.isbn} Title: {props.title}
       </p>
-      <div onClick={() => checkout()}>Checkout</div>
-      <div onClick={() => reserve()}>Reserve</div>
+      {renderButton()}
       {status && (
         <div className={status.error ? "text-red-500" : "text-green-400"}>
           {status?.message}
