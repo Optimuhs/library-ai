@@ -1,13 +1,10 @@
 import clsx from "clsx";
-import { SignInButton } from "components/Layout/SigninButton";
-import { SignOutButton } from "components/Layout/SignoutButton";
-import { Checkout } from "components/Workflow/Checkouts/CheckoutComp";
 import { getServerSession } from "next-auth";
 import { getSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import "../../app/globals.css";
-import { Header } from "../../components/Header";
+import { Header } from "../../components/Layout/Header";
 import { authOptions } from "../api/auth/[...nextauth]";
 
 type User = {
@@ -35,24 +32,7 @@ export default function CheckoutPage() {
 
   return (
     <div className={clsx("flex", "flex-col")}>
-      <Header />
-      <div
-        className={clsx("flex", "flex-row", "items-center", "justify-center")}
-      ></div>
-      <div>
-        <div
-          key={userData?.id}
-        >{`${userData?.firstName} ${userData?.idNumber} `}</div>
-      </div>
-
-      {userData != undefined ? (
-        <div>
-          {" "}
-          <Checkout props={userData.id} /> <SignOutButton />{" "}
-        </div>
-      ) : (
-        <SignInButton />
-      )}
+      <Header userData={userData} />
     </div>
   );
 }

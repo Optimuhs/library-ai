@@ -1,6 +1,7 @@
 import { clsx } from "clsx";
 import { BookComp } from "components/Workflow/BookComp";
 import { useState } from "react";
+import { CurrentlyOut } from "./CurrentlyOut";
 
 export const Checkout = ({ props }) => {
   const [searchRes, setSearchRes] = useState<string>("");
@@ -35,6 +36,9 @@ export const Checkout = ({ props }) => {
 
   return (
     <div>
+      <div>
+        <CurrentlyOut userId={props} />
+      </div>
       <div>
         <p>
           Type the book&apos;s ISBN or Title to search the book for checkout

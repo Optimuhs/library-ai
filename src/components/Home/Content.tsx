@@ -20,7 +20,6 @@ export const Content = () => {
         </ul>
         <div className={clsx("flex", "justify-center", "items-center")}></div>
       </section>
-      <button onClick={() => signInRedirect()}>Click here to sign in!</button>
     </div>
   );
 };

@@ -1,10 +1,39 @@
 import clsx from "clsx";
 import Link from "next/link";
-export const Navbar = () => {
+import { SignInButton } from "./SigninButton";
+import { SignOutButton } from "./SignoutButton";
+
+export const Navbar = ({ userData }) => {
   return (
-    <div className={clsx("flex", "flex-row")}>
-      <nav>
-        <ul className={clsx("flex", "flex-row", "space-x-5")}>
+    <div
+      className={clsx(
+        "flex",
+        "flex-row",
+        "align-center",
+        "justify-center",
+        "bg-royal-blue"
+      )}
+    >
+      <nav
+        className={clsx(
+          "flex",
+          "flex-row",
+          "items-center",
+          "justify-center",
+          "mr-auto",
+          "p-4",
+          "ml-4"
+        )}
+      >
+        <ul
+          className={clsx(
+            "flex",
+            "flex-row",
+            "items-center",
+            "justify-center",
+            "space-x-5"
+          )}
+        >
           <Link href={"/checkout"}>
             <li>Checkout</li>
           </Link>
@@ -16,6 +45,9 @@ export const Navbar = () => {
           </Link>
         </ul>
       </nav>
+      <div className={clsx("flex", "flex-row", "mr-4")}>
+        {userData != undefined ? <SignOutButton /> : <SignInButton />}
+      </div>
     </div>
   );
 };

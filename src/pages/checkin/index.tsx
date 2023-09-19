@@ -1,4 +1,4 @@
-import { Header } from "components/Header";
+import { Header } from "components/Layout/Header";
 import { CheckinComponent } from "components/Workflow/Checkins/CheckinComp";
 import { getServerSession } from "next-auth";
 import { getSession } from "next-auth/react";

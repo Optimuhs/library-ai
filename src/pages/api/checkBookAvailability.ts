@@ -18,6 +18,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
         booksOutId: bookId,
         checkedOut: true,
         bookISBN: bookIsbn,
+        borrowerId: userId,
       },
     });
     // Check if the book is already reserved
@@ -43,6 +44,11 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
           borrowerId: userId, // Assign the correct 'userId' here
           booksOutId: bookId,
           bookISBN: bookIsbn,
+          bookOut: {
+            connect: {
+              id: bookId,
+            },
+          },
         },
       });
 
@@ -64,7 +70,10 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
           id: bookId,
           reservationId: null,
         },
-        data: { rentalId: newRental.id, reservationId: null },
+        data: {
+          rentalId: newRental.id,
+          reservationId: null,
+        },
       });
 
       const resObject = { rental: newRental, update: updatedBook };

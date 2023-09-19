@@ -10,9 +10,18 @@ export const SignOutButton = () => {
   return (
     <div
       onClick={() => signOutRedirect()}
-      className={clsx("bg-stone-400", "w-fit", "p-3", "flex", "m-10")}
+      className={clsx(
+        "bg-stone-400",
+        "w-fit",
+        "p-2",
+        "flex",
+        "flex-row",
+        "m-1",
+        "items-center",
+        "justify-center"
+      )}
     >
-      Click here to Sign Out
+      Sign Out
     </div>
   );
 };

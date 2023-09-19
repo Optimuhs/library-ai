@@ -52,7 +52,7 @@ model Reservation {
 
   pending              Boolean
   reservationAt        DateTime?      @default(now()) @map("reservation_at")
-  reservationFulfilled DateTime?      @map("reservation_fulfilled_at")
+  reservationFulfilled DateTime?       @map("reservation_fulfilled_at")
   reservationExpiry    DateTime?       
   userReserving        User           @relation("UserReserving", fields: [userId], references: [id])
   userId               Int
@@ -79,7 +79,7 @@ model Rentals {
   checkedOut   Boolean                @default(false)
   checkedOutAt DateTime               @default(now())
   dueDate      DateTime
-  checkedInAt  DateTime               @default(now())
+  checkedInAt  DateTime?               
   borrowerId   Int        
   bookOut      Book?                  @relation("BookCheckedOut")
 

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "../app/globals.css";
-import { Header } from "../components/Header";
 import { Content } from "../components/Home/Content";
+import { Header } from "../components/Layout/Header";
 
 export default function Home() {
   type Book = {

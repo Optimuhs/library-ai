@@ -4,7 +4,7 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const userId = Number(req.query.userId);
+  const userId = Number(req.query.userid);
   const book = req.query.isbn as string;
   const bookIsbn = book.trim();
   try {
@@ -21,25 +21,24 @@ export default async function handler(
       // Update book
       const book = await prisma.book.update({
         where: {
-          isbn: bookIsbn,
-          rentalId: rental.id,
           id: rental.booksOutId,
         },
         data: {
           rentalId: null,
+          reservationId: null,
         },
       });
-      // Update rental
-      const updateRental = await prisma.rentals.update({
+
+      const bookReturned = await prisma.rentals.update({
         where: {
           id: rental.id,
-          borrowerId: userId,
         },
         data: {
           checkedOut: false,
           checkedInAt: new Date(),
         },
       });
+
       const successResponse = { message: "Operation was successful" };
       return res.status(200).json(successResponse);
     } else {

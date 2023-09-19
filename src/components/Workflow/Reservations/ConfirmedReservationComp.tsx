@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { BookReservationComp } from "./BookResComp";
 
-export const ConfirmRes = ({ props }) => {
+export const ConfirmedReservations = ({ props }) => {
   const [reservations, setReservations] = useState<any>([]);
 
   useEffect(() => {

@@ -39,7 +39,12 @@ export const ReservationComp = ({ props }) => {
       <h2>Reserve your book&apos;s here, enter the ISBN or Name of the book</h2>
       <div>
         <form>
-          <input type="text" onChange={handleInputChange}></input>
+          <input
+            type="text"
+            onChange={handleInputChange}
+            placeholder="Book ISBN/ Name"
+            className={clsx("text-black")}
+          ></input>
         </form>
         {searchResult &&
           searchResult.map((elem) => (

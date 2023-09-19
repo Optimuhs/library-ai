@@ -1,5 +1,5 @@
-import { Header } from "components/Header";
-import { ConfirmRes } from "components/Workflow/Reservations/ConfirmedReservationComp";
+import { Header } from "components/Layout/Header";
+import { ConfirmedReservations } from "components/Workflow/Reservations/ConfirmedReservationComp";
 import { ReservationComp } from "components/Workflow/Reservations/ReservationComp";
 import { getServerSession } from "next-auth";
 import { getSession } from "next-auth/react";
@@ -35,10 +35,12 @@ export default function ReservationsPage() {
       <Header />
       <div>
         <div>
-          <h3>View your reservations</h3>
-          <ConfirmRes props={userData?.id} />
+          <h2>
+            Showing reservations for {userData?.firstName} {userData?.lastName}
+          </h2>
+          <ConfirmedReservations props={userData?.id} />
         </div>
-        <h3>Reserve your books here!</h3>
+
         <ReservationComp props={userData?.id} />
       </div>
     </div>
