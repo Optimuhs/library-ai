@@ -8,6 +8,7 @@ type BookDataType = {
   reservationDate: Date;
   reservationExpires: Date;
   resId: number;
+  title: string;
 };
 
 type checkoutStatus = {
@@ -62,22 +63,26 @@ export const BookReservationComp = (props: BookDataType) => {
   }
 
   return (
-    <div className={clsx("p-5")}>
-      <p>
-        ISBN: {props.isbn} Reservation Date: {String(props.reservationDate)}{" "}
-        Reservation Expires: {String(props.reservationExpires)}
-      </p>
-      <div
-        onClick={() => checkout()}
-        className={clsx("text-white", "border-black")}
-      >
-        Checkout
-      </div>
-      {status && (
-        <div className={status.error ? "text-red-500" : "text-green-400"}>
-          {status?.message}
+    <div className={clsx("md:grid", "md:grid-cols-2")}>
+      <div className={clsx("p-5", "text-royal-blue")}>
+        <ul>
+          <li>Title: {props.title}</li>
+          <li>ISBN: {props.isbn}</li>
+          <li>Reservation Date:{String(props.reservationDate)}</li>
+          <li>Reservation Expires: {String(props.reservationExpires)}</li>
+        </ul>
+        <div
+          onClick={() => checkout()}
+          className={clsx("text-royal-blue", "border-black")}
+        >
+          Checkout
         </div>
-      )}
+        {status && (
+          <div className={status.error ? "text-red-500" : "text-green-400"}>
+            {status?.message}
+          </div>
+        )}
+      </div>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import { clsx } from "clsx";
 import { useEffect, useState } from "react";
 import { BookReservationComp } from "./BookResComp";
 
@@ -15,6 +16,7 @@ export const ConfirmedReservations = ({ props }) => {
 
       if (response.ok) {
         const result = await response.json();
+
         setReservations(result);
       } else {
         console.error("Failed to fetch reservations");
@@ -25,20 +27,20 @@ export const ConfirmedReservations = ({ props }) => {
   }
 
   return (
-    <div>
-      {reservations &&
-        reservations.map((elem) => (
-          <div key={elem.id}>
-            <BookReservationComp
-              resId={elem.id}
-              bookId={elem.bookId}
-              isbn={elem.bookISBN}
-              reservationDate={elem.reservationAt}
-              reservationExpires={elem.reservationExpiry}
-              userId={props}
-            />
-          </div>
-        ))}
+    <div className={clsx("text-royal-blue", "m-10")}>
+      {reservations.map((elem) => (
+        <div key={elem.id}>
+          <BookReservationComp
+            title={elem.title}
+            resId={elem.id}
+            bookId={elem.bookId}
+            isbn={elem.bookISBN}
+            reservationDate={elem.reservationAt}
+            reservationExpires={elem.reservationExpiry}
+            userId={props}
+          />
+        </div>
+      ))}
     </div>
   );
 };

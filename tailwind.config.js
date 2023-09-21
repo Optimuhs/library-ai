@@ -22,8 +22,9 @@ module.exports = {
         "royal-blue": "rgb(0, 35, 102)",
       },
       textColor: {
-        gold: "rgb(255, 215, 0)",
+        cream: "rgb(255, 248, 231)",
         "royal-blue": "rgb(0, 35, 102)",
+        "darker-gold": "rgb(204, 153, 51)",
       },
     },
   },

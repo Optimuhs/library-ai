@@ -1,3 +1,4 @@
+import { clsx } from "clsx";
 import { Header } from "components/Layout/Header";
 import { ConfirmedReservations } from "components/Workflow/Reservations/ConfirmedReservationComp";
 import { ReservationComp } from "components/Workflow/Reservations/ReservationComp";
@@ -6,6 +7,7 @@ import { getSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import { authOptions } from "pages/api/auth/[...nextauth]";
 import { useEffect, useState } from "react";
+import "../../app/globals.css";
 
 type User = {
   id: number;
@@ -31,13 +33,17 @@ export default function ReservationsPage() {
   }, [router]);
 
   return (
-    <div>
-      <Header />
-      <div>
+    <div className={clsx("text-royal-blue")}>
+      <Header userData={userData} />
+      <div className={clsx("m-10")}>
+        <h2 className={clsx("text-2xl", "font-semibold")}>
+          Showing active reservations for {userData?.firstName}{" "}
+          {userData?.lastName}
+        </h2>
+      </div>
+
+      <div className={clsx("text-royal-blue")}>
         <div>
-          <h2>
-            Showing reservations for {userData?.firstName} {userData?.lastName}
-          </h2>
           <ConfirmedReservations props={userData?.id} />
         </div>
 
@@ -74,7 +80,7 @@ export async function getServerSideProps({ req, res }) {
         redirect: { destination: "/signin" },
       };
     }
-
+    // securityHeaders(req, res);
     return {
       props: {
         session: session,

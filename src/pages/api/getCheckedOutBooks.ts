@@ -16,6 +16,7 @@ export default async function handler(
         include: {
           bookOut: true, // Include the associated book
         },
+        take: 10,
       });
 
       return res.status(200).json(data);

@@ -22,7 +22,7 @@ export const Navbar = ({ userData }) => {
           "justify-center",
           "mr-auto",
           "p-4",
-          "ml-4"
+          "ml-6"
         )}
       >
         <ul
@@ -31,21 +31,19 @@ export const Navbar = ({ userData }) => {
             "flex-row",
             "items-center",
             "justify-center",
-            "space-x-5"
+            "space-x-5",
+            "text-cream"
           )}
         >
           <Link href={"/checkout"}>
-            <li>Checkout</li>
-          </Link>
-          <Link href={"/checkin"}>
-            <li>Checkin</li>
+            <li>Check-out / Check-in</li>
           </Link>
           <Link href={"/reservations"}>
             <li>Reservations</li>
           </Link>
         </ul>
       </nav>
-      <div className={clsx("flex", "flex-row", "mr-4")}>
+      <div className={clsx("flex", "flex-row", "mr-4", "text-cream")}>
         {userData != undefined ? <SignOutButton /> : <SignInButton />}
       </div>
     </div>

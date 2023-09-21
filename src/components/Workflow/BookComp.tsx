@@ -26,6 +26,7 @@ export const BookComp = (props: BookDataType) => {
   // Handle checkout url case
   async function checkout() {
     try {
+      console.log(startingData, "start");
       const response = await fetch(
         `./api/checkBookAvailability?id=${startingData.id}&userid=${
           startingData.userid
@@ -85,10 +86,7 @@ export const BookComp = (props: BookDataType) => {
     if (currentUrl.includes("/checkout")) {
       // Render the button on a specific page
       return (
-        <div
-          onClick={() => checkout()}
-          className={clsx("text-white", "border-black")}
-        >
+        <div onClick={() => checkout()} className={clsx("border-black")}>
           Checkout
         </div>
       );

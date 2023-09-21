@@ -35,7 +35,8 @@ model Book {
   shelfLocation  String
   isbn           String
   rented         Rentals?            @relation("BookCheckedOut", fields: [rentalId], references: [id])
-  reserved       Reservation?        @relation("BookReserving")
+  reserved       Reservation[]        @relation("BookReserving")
+
   @@map("books")
 }
 
@@ -58,7 +59,7 @@ model Reservation {
   userId               Int
 
   book                 Book?          @relation("BookReserving", fields: [bookId], references: [id])
-  bookId               Int?           @unique
+  bookId               Int?         
   bookISBN             String
   @@map("reservations")
 }

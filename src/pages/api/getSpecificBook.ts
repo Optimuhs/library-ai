@@ -27,11 +27,11 @@ export default async function handler(
           }
 
           return res.status(200).json(data);
-
-          if (!data) {
-            return res.status(404).json({ error: "Item not found" });
-          }
         }
+        const resObject = {
+          message: "input is empty",
+        };
+        return res.status(400).json(resObject);
       }
       // Ensure defined
       if (bookString != "undefined") {
@@ -45,15 +45,17 @@ export default async function handler(
               rentalId: null,
               reservationId: null,
             },
+            take: 10,
           });
 
-          if (!potentialMatches || potentialMatches.length === 0) {
+          if (!potentialMatches) {
             return res.status(404).json({ error: "No matches found" });
           }
 
           return res.status(200).json(potentialMatches);
         }
       }
+      return res.status(404).json({ error: "No matches found" });
     }
   } catch (error) {
     console.error("Error retrieving item:", error);

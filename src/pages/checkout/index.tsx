@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import { Checkout } from "components/Workflow/Checkouts/CheckoutComp";
 import { getServerSession } from "next-auth";
 import { getSession } from "next-auth/react";
 import { useRouter } from "next/router";
@@ -33,6 +34,7 @@ export default function CheckoutPage() {
   return (
     <div className={clsx("flex", "flex-col")}>
       <Header userData={userData} />
+      <Checkout props={userData?.id} />
     </div>
   );
 }
@@ -64,6 +66,7 @@ export async function getServerSideProps({ req, res }) {
         redirect: { destination: "/signin" },
       };
     }
+    // securityHeaders(req, res);
 
     return {
       props: {

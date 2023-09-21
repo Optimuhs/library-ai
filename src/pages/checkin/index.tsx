@@ -30,7 +30,7 @@ export default function CheckinPage() {
 
   return (
     <div>
-      <Header />
+      <Header userData={userData} />
       <CheckinComponent userId={userData?.id} />
     </div>
   );

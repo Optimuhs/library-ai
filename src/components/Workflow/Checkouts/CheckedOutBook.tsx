@@ -60,13 +60,14 @@ export const CheckedOutBook = (props: BookDataType) => {
 
   return (
     <div className={clsx("p-5")}>
-      <p>
-        ISBN: {props.isbn} Due Date: {String(props.dueDate)} Title:{" "}
-        {props.title}{" "}
-      </p>
+      <ul>
+        <li>Title: {props.title}</li>
+        <li>ISBN: {props.isbn}</li>
+        <li>Due Date: {String(props.dueDate)}</li>
+      </ul>
       <div
         onClick={() => checkin()}
-        className={clsx("text-white", "border-black")}
+        className={clsx("text-royal-blue", "border-black")}
       >
         Checkin
       </div>

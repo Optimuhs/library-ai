@@ -1,6 +1,6 @@
+import { clsx } from "clsx";
 import { useEffect, useState } from "react";
 import { CheckedOutBook } from "./CheckedOutBook";
-
 export const CurrentlyOut = ({ userId }) => {
   const [checkedOut, setCheckedOut] = useState<any>([]);
 
@@ -23,9 +23,11 @@ export const CurrentlyOut = ({ userId }) => {
   }
 
   return (
-    <div>
-      <h3>Currently checked out books</h3>
-      <div>
+    <div className={clsx("space-y-3")}>
+      <h3 className={clsx("text-2xl", "font-semibold")}>
+        Currently checked out books
+      </h3>
+      <div className={clsx("md:grid", "md:grid-cols-2")}>
         {checkedOut.map((elem) => (
           <div key={elem.id}>
             <CheckedOutBook

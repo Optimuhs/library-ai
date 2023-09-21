@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import Link from "next/link";
 import { Navbar } from "./Navbar";
 
 export function Header({ userData }) {
@@ -13,10 +14,15 @@ export function Header({ userData }) {
           "justify-center",
           "bg-darker-gold",
           "space-x-5",
-          "text-3xl"
+          "text-3xl",
+          "text-cream"
         )}
       >
-        <h2>Welcome to the Annie Webb Blanton Library </h2>
+        <Link href={"/"}>
+          <h2 className={clsx("font-semibold")}>
+            Welcome to the Annie Webb Blanton Library{" "}
+          </h2>
+        </Link>
       </div>
       <Navbar userData={userData} />
     </div>

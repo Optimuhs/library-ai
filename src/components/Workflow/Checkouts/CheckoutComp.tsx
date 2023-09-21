@@ -35,7 +35,7 @@ export const Checkout = ({ props }) => {
   };
 
   return (
-    <div>
+    <div className={clsx("text-royal-blue", "flex", "flex-col", "m-10")}>
       <div>
         <CurrentlyOut userId={props} />
       </div>
@@ -44,17 +44,23 @@ export const Checkout = ({ props }) => {
           Type the book&apos;s ISBN or Title to search the book for checkout
         </p>
       </div>
-      <form>
+      <form className={clsx("my-3")}>
         <input
           type="text"
-          placeholder="ISBN / Title"
+          placeholder=" ISBN / Title"
           onChange={handleInputChange}
-          className={clsx("text-black")}
+          className={clsx(
+            "text-black",
+            "border",
+            "border-black",
+            "rounded",
+            "p-1"
+          )}
         />
       </form>
       {searchResult &&
         searchResult.map((elem) => (
-          <div key={elem.id} className={clsx("text-white")}>
+          <div key={elem.id}>
             {/* Render specific properties of the element */}
             <BookComp
               title={elem.title}

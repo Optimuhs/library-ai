@@ -40,11 +40,27 @@ export const CheckinComponent = (props) => {
   };
 
   return (
-    <div className={clsx("flex", "flex-col", "m-10", "space-y-5")}>
-      <p>Enter your book ISBN to checkin your book</p>
+    <div
+      className={clsx(
+        "flex",
+        "flex-col",
+        "m-10",
+        "space-y-5",
+        "text-royal-blue"
+      )}
+    >
+      <h2 className={clsx("text-2xl", "font-semibold")}>
+        Enter your book ISBN to check in your book
+      </h2>
       <form onSubmit={CheckinHandler} className={clsx("space-x-5")}>
         <input
-          className={clsx("text-black")}
+          className={clsx(
+            "text-black",
+            "border",
+            "rounded",
+            "border-black",
+            "p-1"
+          )}
           type="text"
           value={formData.isbn}
           onChange={handleInputChange}
@@ -55,7 +71,12 @@ export const CheckinComponent = (props) => {
             {state.message}
           </div>
         )}
-        <button type="submit">Submit</button>
+        <button
+          type="submit"
+          className={clsx("border", "rounded", "border-black", "p-1")}
+        >
+          Submit
+        </button>
       </form>
     </div>
   );
