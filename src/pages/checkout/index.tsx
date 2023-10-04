@@ -34,7 +34,7 @@ export default function CheckoutPage() {
   return (
     <div className={clsx("flex", "flex-col")}>
       <Header userData={userData} />
-      <Checkout props={userData?.id} />
+      <Checkout props={userData} />
     </div>
   );
 }

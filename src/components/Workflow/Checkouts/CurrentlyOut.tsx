@@ -1,7 +1,8 @@
 import { clsx } from "clsx";
 import { useEffect, useState } from "react";
 import { CheckedOutBook } from "./CheckedOutBook";
-export const CurrentlyOut = ({ userId }) => {
+
+export const CurrentlyOut = ({ props }) => {
   const [checkedOut, setCheckedOut] = useState<any>([]);
 
   useEffect(() => {
@@ -10,7 +11,9 @@ export const CurrentlyOut = ({ userId }) => {
 
   async function getCheckedOutBooks() {
     try {
-      const response = await fetch(`./api/getCheckedOutBooks?userId=${userId}`);
+      const response = await fetch(
+        `./api/getCheckedOutBooks?userId=${props.id}`
+      );
       if (response.ok) {
         const result = await response.json();
         setCheckedOut(result);
@@ -25,7 +28,8 @@ export const CurrentlyOut = ({ userId }) => {
   return (
     <div className={clsx("space-y-3")}>
       <h3 className={clsx("text-2xl", "font-semibold")}>
-        Currently checked out books
+        Currently checked out books for{" "}
+        {`${props?.firstName} ${props?.lastName} `}
       </h3>
       <div className={clsx("md:grid", "md:grid-cols-2")}>
         {checkedOut.map((elem) => (

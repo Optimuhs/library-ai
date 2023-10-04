@@ -15,6 +15,20 @@
     --background-end-rgb: 255, 248, 231;
   }
 }
+/* Navigation menu styles */
+nav {
+  transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
+  opacity: 1;
+  max-height: 1000px;
+}
+
+/* Styles for the hidden menu */
+.navbar-hidden nav {
+  opacity: 0;
+  max-height: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
 
 body {
   color: rgb(var(--foreground-rgb));

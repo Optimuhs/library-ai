@@ -14,6 +14,7 @@ export const Checkout = ({ props }) => {
   };
 
   const SearchHandler = async (e: string) => {
+    console.log(props, "check");
     try {
       const response = await fetch(
         `/api/getSpecificBook?bookString=${searchRes}&rentalTrue=${true}`
@@ -37,7 +38,7 @@ export const Checkout = ({ props }) => {
   return (
     <div className={clsx("text-royal-blue", "flex", "flex-col", "m-10")}>
       <div>
-        <CurrentlyOut userId={props} />
+        <CurrentlyOut props={props} />
       </div>
       <div>
         <p>
@@ -66,7 +67,7 @@ export const Checkout = ({ props }) => {
               title={elem.title}
               isbn={elem.isbn}
               id={elem.id}
-              userid={props}
+              userid={props.id}
             />
           </div>
         ))}

@@ -55,13 +55,16 @@ export const ReservationComp = ({ props }) => {
         </form>
         {searchResult &&
           searchResult.map((elem) => (
-            <div key={elem.id} className={clsx("text-royal-blue")}>
+            <div
+              key={elem.id}
+              className={clsx("text-royal-blue", "grid", "grid-cols-2")}
+            >
               {/* Render specific properties of the element */}
               <BookComp
                 title={elem.title}
                 isbn={elem.isbn}
                 id={elem.id}
-                userid={props}
+                userid={props.id}
               />
             </div>
           ))}

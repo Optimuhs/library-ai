@@ -12,7 +12,9 @@ export const ConfirmedReservations = ({ props }) => {
 
   async function getReservations() {
     try {
-      const response = await fetch(`./api/getUserReservations?userId=${props}`);
+      const response = await fetch(
+        `./api/getUserReservations?userId=${props.id}`
+      );
 
       if (response.ok) {
         const result = await response.json();
@@ -27,7 +29,9 @@ export const ConfirmedReservations = ({ props }) => {
   }
 
   return (
-    <div className={clsx("text-royal-blue", "m-10")}>
+    <div
+      className={clsx("text-royal-blue", "m-10", "md:grid", "md:grid-cols-2")}
+    >
       {reservations.map((elem) => (
         <div key={elem.id}>
           <BookReservationComp
@@ -37,7 +41,7 @@ export const ConfirmedReservations = ({ props }) => {
             isbn={elem.bookISBN}
             reservationDate={elem.reservationAt}
             reservationExpires={elem.reservationExpiry}
-            userId={props}
+            userId={props.id}
           />
         </div>
       ))}

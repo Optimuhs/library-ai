@@ -1,6 +1,5 @@
 import clsx from "clsx";
 import { useState } from "react";
-
 type BookDataType = {
   title: string;
   isbn: string;
@@ -26,7 +25,8 @@ export const BookComp = (props: BookDataType) => {
   // Handle checkout url case
   async function checkout() {
     try {
-      console.log(startingData, "start");
+      console.log(startingData.userid, "data");
+      console.log(props.userid, "id test");
       const response = await fetch(
         `./api/checkBookAvailability?id=${startingData.id}&userid=${
           startingData.userid
@@ -61,7 +61,7 @@ export const BookComp = (props: BookDataType) => {
           startingData.userid
         }&isbn=${startingData.isbn}&reserveTrue=${true}`
       );
-      console.log(response, "res");
+
       if (response.ok) {
         setStatus({ message: "Reservation Successful", error: false });
       } else {

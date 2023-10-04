@@ -44,10 +44,10 @@ export default function ReservationsPage() {
 
       <div className={clsx("text-royal-blue")}>
         <div>
-          <ConfirmedReservations props={userData?.id} />
+          <ConfirmedReservations props={userData} />
         </div>
 
-        <ReservationComp props={userData?.id} />
+        <ReservationComp props={userData} />
       </div>
     </div>
   );
