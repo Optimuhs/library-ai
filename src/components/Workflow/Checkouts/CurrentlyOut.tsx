@@ -1,9 +1,15 @@
 import { clsx } from "clsx";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { CheckedOutBook } from "./CheckedOutBook";
-
 export const CurrentlyOut = ({ props }) => {
   const [checkedOut, setCheckedOut] = useState<any>([]);
+  const [toggle, setToggle] = useState(false);
+
+  const ToggleHandler = () => {
+    const newState = !toggle;
+    setToggle(newState);
+  };
 
   useEffect(() => {
     getCheckedOutBooks(); // Call the async function directly
@@ -31,7 +37,37 @@ export const CurrentlyOut = ({ props }) => {
         Currently checked out books for{" "}
         {`${props?.firstName} ${props?.lastName} `}
       </h3>
-      <div className={clsx("md:grid", "md:grid-cols-2")}>
+      <div
+        onClick={() => ToggleHandler()}
+        className={clsx(
+          "flex",
+          "justify-center",
+          "items-center",
+          "flex-col",
+          "sm:hidden",
+          "my-10",
+          toggle ? "rotate-180" : ""
+        )}
+      >
+        {/* Conditionally render down or up based on state */}
+        <Image
+          src="/down-chevron.png"
+          alt="dropdown arrow"
+          width={50}
+          height={50}
+        />
+      </div>
+      <div
+        className={clsx(
+          "md:grid",
+          "md:grid-cols-2",
+          "transition-all duration-700",
+          "max-h-0",
+          "overflow-hidden",
+          toggle ? "max-h-screen" : "",
+          "sm:contents"
+        )}
+      >
         {checkedOut.map((elem) => (
           <div key={elem.id}>
             <CheckedOutBook

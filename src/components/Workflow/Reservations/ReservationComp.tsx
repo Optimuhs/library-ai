@@ -55,10 +55,7 @@ export const ReservationComp = ({ props }) => {
         </form>
         {searchResult &&
           searchResult.map((elem) => (
-            <div
-              key={elem.id}
-              className={clsx("text-royal-blue", "grid", "grid-cols-2")}
-            >
+            <div key={elem.id} className={clsx("text-royal-blue")}>
               {/* Render specific properties of the element */}
               <BookComp
                 title={elem.title}

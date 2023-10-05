@@ -4,6 +4,7 @@ import { ConfirmedReservations } from "components/Workflow/Reservations/Confirme
 import { ReservationComp } from "components/Workflow/Reservations/ReservationComp";
 import { getServerSession } from "next-auth";
 import { getSession } from "next-auth/react";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import { authOptions } from "pages/api/auth/[...nextauth]";
 import { useEffect, useState } from "react";
@@ -20,6 +21,13 @@ type User = {
 export default function ReservationsPage() {
   const router = useRouter();
   const [userData, setUserData] = useState<User>();
+  const [toggle, setToggle] = useState(false);
+
+  const ToggleHandler = () => {
+    const newState = !toggle;
+    setToggle(newState);
+  };
+
   useEffect(() => {
     async function getData() {
       try {
@@ -35,7 +43,17 @@ export default function ReservationsPage() {
   return (
     <div className={clsx("text-royal-blue")}>
       <Header userData={userData} />
-      <div className={clsx("m-10")}>
+      <div
+        className={clsx(
+          "mt-10",
+          "mb-5",
+          "mx-10",
+          "flex",
+          "justify-center",
+          "align-center",
+          "items-center"
+        )}
+      >
         <h2 className={clsx("text-2xl", "font-semibold")}>
           Showing active reservations for {userData?.firstName}{" "}
           {userData?.lastName}
@@ -43,7 +61,36 @@ export default function ReservationsPage() {
       </div>
 
       <div className={clsx("text-royal-blue")}>
-        <div>
+        <div
+          onClick={() => ToggleHandler()}
+          className={clsx(
+            "flex",
+            "justify-center",
+            "items-center",
+            "flex-col",
+            "sm:hidden",
+            "py-2",
+            toggle ? "rotate-180" : ""
+          )}
+        >
+          {/* Conditionally render down or up based on state */}
+          <Image
+            src="/down-chevron.png"
+            alt="dropdown arrow"
+            width={50}
+            height={50}
+          />
+        </div>
+        <div
+          className={clsx(
+            "transition-all duration-700",
+            "max-h-0",
+            "overflow-hidden",
+            toggle ? "max-h-screen" : "",
+            "sm:contents",
+            "mb-5"
+          )}
+        >
           <ConfirmedReservations props={userData} />
         </div>
 

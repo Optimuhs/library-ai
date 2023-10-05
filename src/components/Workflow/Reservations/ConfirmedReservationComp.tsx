@@ -30,7 +30,7 @@ export const ConfirmedReservations = ({ props }) => {
 
   return (
     <div
-      className={clsx("text-royal-blue", "m-10", "md:grid", "md:grid-cols-2")}
+      className={clsx("text-royal-blue", "mx-10", "md:grid", "md:grid-cols-2")}
     >
       {reservations.map((elem) => (
         <div key={elem.id}>
