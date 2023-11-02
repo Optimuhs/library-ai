@@ -23,6 +23,7 @@ export const CurrentlyOut = ({ props }) => {
       if (response.ok) {
         const result = await response.json();
         setCheckedOut(result);
+        console.log(checkedOut, "out");
       } else {
         console.error("Failed to fetch checked out books");
       }
@@ -44,7 +45,6 @@ export const CurrentlyOut = ({ props }) => {
           "justify-center",
           "items-center",
           "flex-col",
-          "sm:hidden",
           "my-10",
           toggle ? "rotate-180" : ""
         )}

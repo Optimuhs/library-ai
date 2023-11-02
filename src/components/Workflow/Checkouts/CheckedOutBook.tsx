@@ -59,7 +59,7 @@ export const CheckedOutBook = (props: BookDataType) => {
   }
 
   return (
-    <div className={clsx("p-5")}>
+    <div className={clsx("p-5", "text-royal-blue")}>
       <ul>
         <li>Title: {props.title}</li>
         <li>ISBN: {props.isbn}</li>

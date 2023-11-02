@@ -49,8 +49,7 @@ export default function ReservationsPage() {
           "mb-5",
           "mx-10",
           "flex",
-          "justify-center",
-          "align-center",
+          "align-left",
           "items-center"
         )}
       >

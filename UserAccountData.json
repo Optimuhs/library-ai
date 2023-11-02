@@ -1,5 +1,13 @@
 [
   {
+    "firstName": "Francisco",
+    "lastName": "Martinez",
+    "idNumber": "0123456",
+    "isStudent": false,
+    "currentReadingLevel": "C",
+    "email": "franciscoj12m@gmail.com"
+  },
+  {
     "firstName": "Sarah",
     "lastName": "Milly",
     "idNumber": "7413252",

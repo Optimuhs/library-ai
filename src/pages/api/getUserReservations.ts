@@ -13,6 +13,10 @@ export default async function handler(
           userId: userId,
           pending: true,
         },
+        include: {
+          book: true, // Include the associated book
+        },
+        take: 10,
       });
 
       return res.status(200).json(data);

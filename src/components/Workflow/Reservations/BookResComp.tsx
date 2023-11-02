@@ -30,7 +30,6 @@ export const BookReservationComp = (props: BookDataType) => {
 
   // Handle checkout url case
   async function checkout() {
-    console.log(props, startingData, "out");
     try {
       const response = await fetch(
         `./api/updateReservation?bookId=${startingData.bookId}&userid=${startingData.userid}&isbn=${startingData.isbn}&resId=${startingData.resId}`

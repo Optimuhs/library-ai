@@ -26,15 +26,15 @@ model User {
 }
 
 model Book {
-  id             Int                 @id @default(autoincrement())
+  id             Int                  @id @default(autoincrement())
   title          String
   reservationId  Int?
   bookLevel      String
   bookLevelColor String
-  rentalId       Int?                @unique 
+  rentalId       Int?                 @unique 
   shelfLocation  String
   isbn           String
-  rented         Rentals?            @relation("BookCheckedOut", fields: [rentalId], references: [id])
+  rented         Rentals?             @relation("BookCheckedOut", fields: [rentalId], references: [id])
   reserved       Reservation[]        @relation("BookReserving")
 
   @@map("books")

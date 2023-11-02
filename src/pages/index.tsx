@@ -63,7 +63,15 @@ export default function Home() {
     <div>
       <Header userData={userData?.id} />
       <Content />
-      <div className={clsx("text-royal-blue")}>
+      <div
+        className={clsx(
+          "text-royal-blue",
+          "flex",
+          "flex-col",
+          "justify-center",
+          "items-center"
+        )}
+      >
         <p>Images were sourced from: https://openlibrary.org</p>
       </div>
     </div>

@@ -2,66 +2,59 @@ const { PrismaClient } = require("@prisma/client");
 const fs = require("fs");
 const prisma = new PrismaClient();
 async function main() {
-  await generateUsers();
-  await generateAuthors();
-  await generateBooks();
+  try {
+    await generateUsers();
+    await generateAuthors();
+    await generateBooks();
+  } catch (error) {
+    console.error(error);
+  } finally {
+    await prisma.$disconnect();
+  }
 }
 
 async function generateUsers() {
-  fs.readFile(
-    "./UserAccountData.json",
-    "utf-8",
-    async (err: string, data: string) => {
-      if (err) {
-        console.error(err);
-        return;
-      }
-      const jsonData = JSON.parse(data);
+  try {
+    const data = await fs.readFile("./UserAccountData.json", "utf-8");
+    const jsonData = JSON.parse(data);
 
-      for (const userData of jsonData) {
-        const user = await prisma.user.create({
-          data: {
-            firstName: userData.firstName,
-            lastName: userData.lastName,
-            idNumber: userData.idNumber,
-            isStudent: userData.isStudent,
-            currentReadingLevel: userData.currentReadingLevel,
-            email: userData.email,
-          },
-        });
-        console.log(user);
-      }
+    for (const userData of jsonData) {
+      const user = await prisma.user.create({
+        data: {
+          firstName: userData.firstName,
+          lastName: userData.lastName,
+          idNumber: userData.idNumber,
+          isStudent: userData.isStudent,
+          currentReadingLevel: userData.currentReadingLevel,
+          email: userData.email,
+        },
+      });
+      console.log(user);
     }
-  );
+  } catch (error) {
+    console.error(error);
+  }
 }
 
 async function generateAuthors() {
-  fs.readFile(
-    "./AuthorData.json",
-    "utf-8",
-    async (err: string, data: string) => {
-      if (err) {
-        console.error(err);
-        return;
-      }
-      const jsonData = JSON.parse(data);
+  try {
+    const data = await fs.readFile("./AuthorData.json", "utf-8");
+    const jsonData = JSON.parse(data);
 
-      for (const authorData of jsonData) {
-        const author = await prisma.author.create({
-          data: authorData,
-        });
-        console.log(author);
-      }
+    for (const authorData of jsonData) {
+      const author = await prisma.author.create({
+        data: authorData,
+      });
+      console.log(author);
     }
-  );
+  } catch (error) {
+    console.error(error);
+  }
 }
 
 async function generateBooks() {
-  fs.readFile("./BookData.json", "utf-8", async (err: string, data: string) => {
-    if (err) {
-      console.error(err);
-      return;
-    }
+  try {
+    const data = await fs.readFile("./BookData.json", "utf-8");
     const jsonData = JSON.parse(data);
 
     for (const bookData of jsonData) {
@@ -76,18 +69,9 @@ async function generateBooks() {
       });
       console.log(book);
     }
-  });
+  } catch (error) {
+    console.error(error);
+  }
 }
 
-main()
-  .then(async () => {
-    await prisma.$disconnect();
-  })
-
-  .catch(async (e) => {
-    console.error(e);
-
-    await prisma.$disconnect();
-
-    process.exit(1);
-  });
+main();
