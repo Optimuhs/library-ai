@@ -12,6 +12,7 @@
     "seed": "node --loader ts-node/esm prisma/seed.ts"
   },
   "dependencies": {
+    "@flaticon/flaticon-uicons": "^2.4.0",
     "@prisma/client": "5.1.1",
     "@types/firebase": "^3.2.1",
     "@types/react": "18.2.17",

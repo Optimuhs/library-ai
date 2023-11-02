@@ -1,0 +1,2819 @@
+[
+  {
+    "title": "50 grados bajo cero",
+    "isbn": "9780605167735",
+    "shelfLocation": "E MUN SP",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "The A+ custodian",
+    "isbn": "9781415547847",
+    "shelfLocation": "E BOR",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "A Jaime Josué le gustan los camiones",
+    "isbn": "9780516216911",
+    "shelfLocation": "E PET SP",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "A la búsqueda del tesoro!",
+    "isbn": "9781603964180",
+    "shelfLocation": "E KRA SPA",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "A la cama, Hipo!",
+    "isbn": "9788426136732",
+    "shelfLocation": "E PFI SPA",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "A limpiar el campamento!",
+    "isbn": "9780605174856",
+    "shelfLocation": "E PEN SP",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 7
+  },
+  {
+    "title": "Aaahh! School lunch",
+    "isbn": "9780590278546",
+    "shelfLocation": "E WIG",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "Aaron's hair",
+    "isbn": "9780439192583",
+    "shelfLocation": "E MUN",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Aaron's hair",
+    "isbn": "9780439192583",
+    "shelfLocation": "E MUN",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "ABC cats",
+    "isbn": "9781536209945",
+    "shelfLocation": "E NEW",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "El abece de las emociones",
+    "isbn": "9781474944618",
+    "shelfLocation": "E BRO SPA",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 5
+  },
+  {
+    "title": "Abran paso a los patitos",
+    "isbn": "9781591127338",
+    "shelfLocation": "E MCC SP",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "Abran paso a los patitos",
+    "isbn": "9781591127338",
+    "shelfLocation": "E MCC SP",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 10
+  },
+  {
+    "title": "Abre la puerta del granero...",
+    "isbn": "9781101932414",
+    "shelfLocation": "E SAN SPA",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Abuela",
+    "isbn": "9780140562262",
+    "shelfLocation": "E DOR",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Abuela",
+    "isbn": "9780140562262 ",
+    "shelfLocation": "E DOR SP",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Abuela",
+    "isbn": "9780140562262",
+    "shelfLocation": "E DOR SP",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "Abuela",
+    "isbn": "9780140562262",
+    "shelfLocation": "E DOR SP",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Abuelita",
+    "isbn": "9781773216102",
+    "shelfLocation": "E HUB SP",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "La abuelita de arriba y la abuelita de abajo",
+    "isbn": "9780416430707",
+    "shelfLocation": "E DEP",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 13
+  },
+  {
+    "title": "Abuelo",
+    "isbn": "9781532260391",
+    "shelfLocation": "E DOR",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Abuelo",
+    "isbn": "9781532260391",
+    "shelfLocation": "E DOR",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "Abuelo vivia solo = Grandpa used to live alone",
+    "isbn": "9781558855311",
+    "shelfLocation": "E COS SPA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 9
+  },
+  {
+    "title": "Abuelo vivia solo = Grandpa used to live alone",
+    "isbn": "9781558855311",
+    "shelfLocation": "E COS SPA",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Addie meets Max",
+    "isbn": "9780060250645",
+    "shelfLocation": "E ROB",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Addie meets Max",
+    "isbn": "9780060250645",
+    "shelfLocation": "E ROB",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Addie's bad day",
+    "isbn": "9780060212988",
+    "shelfLocation": "E ROB",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Adonde van las personas caundo mueren?",
+    "isbn": "9780605204386",
+    "shelfLocation": "E POR SP",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "The adventures of Connie and Diego= las aventuras",
+    "isbn": "9780800061944",
+    "shelfLocation": "E GAR",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 6
+  },
+  {
+    "title": "The adventures of Marco Flamingo in the jungle = :",
+    "isbn": "9780605495708",
+    "shelfLocation": "E JAR SPA",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "The adventures of Rainbow Fish",
+    "isbn": "9781534495159",
+    "shelfLocation": "E PFI",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "The adventures of Tintin : danger at sea",
+    "isbn": "9780316185776",
+    "shelfLocation": "E MAY",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Advertencia : no abras este libro",
+    "isbn": "9788426140388",
+    "shelfLocation": "E LEH SPA",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 7
+  },
+  {
+    "title": "Agapanthus Hum and the eyeglasses",
+    "isbn": "9780788737886",
+    "shelfLocation": "E COW",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Aggie and Ben : three stories",
+    "isbn": "9781684446483",
+    "shelfLocation": "E RIE",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Aggie and Ben : three stories",
+    "isbn": "9781684446483",
+    "shelfLocation": "E RIE",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Aggie and Ben : three stories",
+    "isbn": "9781684446483",
+    "shelfLocation": "E RIE",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 10
+  },
+  {
+    "title": "Agu, agu, agu",
+    "isbn": "9780780402812",
+    "shelfLocation": "E MUN SP",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 6
+  },
+  {
+    "title": "Al fin en casa",
+    "isbn": "9781600606540",
+    "shelfLocation": "E ELY SPA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "Al fin en casa",
+    "isbn": "9781600606540",
+    "shelfLocation": "E ELY SPA",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "Aladino y la lampara espantosa",
+    "isbn": "9788424170608",
+    "shelfLocation": "E CAN SPA",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "Albert's Thanksgiving",
+    "isbn": "9788424170608",
+    "shelfLocation": "E TRY",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Alexander and the terrible, horrible, no good, very bad day",
+    "isbn": "9780738316406",
+    "shelfLocation": "E VIO",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 10
+  },
+  {
+    "title": "Alexander and the terrible, horrible, no good, very bad day",
+    "isbn": "9781442498167",
+    "shelfLocation": "E VIO",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Alexander, que de ninguna manera, le oyen?, lo dic",
+    "isbn": "9780788737893",
+    "shelfLocation": "E VIO",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "Alexander, que era rico el domingo pasado",
+    "isbn": "9780874992229",
+    "shelfLocation": "E VIO SP",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Alexander, que era rico el domingo pasado",
+    "isbn": "9780874992229",
+    "shelfLocation": "E VIO SP",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Alexander, who used to be rich last Sunday",
+    "isbn": "9780021091126",
+    "shelfLocation": "E VIO",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 13
+  },
+  {
+    "title": "Alexander, who used to be rich last sunday ",
+    "isbn": "9780021091126",
+    "shelfLocation": "E VIO",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 2
+  },
+  {
+    "title": "Alexander, who used to be rich last sunday ",
+    "isbn": "9780021091126",
+    "shelfLocation": "E VIO",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "Alexander, who's trying his best",
+    "isbn": "9781481423533",
+    "shelfLocation": "E VIO",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "To be the best bo",
+    "isbn": "9781737279112",
+    "shelfLocation": "",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "Algo bueno",
+    "isbn": "9780605081703",
+    "shelfLocation": "E MUN SP",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Alice Nizzy Nazzy, the Witch of Santa Fe",
+    "isbn": "9780590899819",
+    "shelfLocation": "E JOH",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Alicia and the hurricane : a story of Puerto Rico",
+    "isbn": "9780892394555",
+    "shelfLocation": "E NEW SPA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 5
+  },
+  {
+    "title": "Alicia en el país de las maravillas",
+    "isbn": "9780194229647",
+    "shelfLocation": "E FAB SPA",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Alicia's fruity drinks = Las aguas frescas de Alic",
+    "isbn": "9781558857056",
+    "shelfLocation": "E RUI SPA",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "Alien invaders = Invasores extraterrestres",
+    "isbn": "9780605156388",
+    "shelfLocation": "E HUG SP",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "All about Alice",
+    "isbn": "9780744569377",
+    "shelfLocation": "E DAL",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "All about us",
+    "isbn": "9788418236631",
+    "shelfLocation": "E SCA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "The all-American jump and jive jig",
+    "isbn": "9781402751431",
+    "shelfLocation": "E PRO",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "All around the seasons",
+    "isbn": "9780763636944",
+    "shelfLocation": "E SAL",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "All because you matter",
+    "isbn": "9781338574852",
+    "shelfLocation": "E CHA",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "All for pie, pie for all",
+    "isbn": "9781428703797",
+    "shelfLocation": "E MAR",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 3
+  },
+  {
+    "title": "All I Want for Christmas Is You",
+    "isbn": "9780593379288",
+    "shelfLocation": "E CAR",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "The all-I'll-ever-want Christmas doll",
+    "isbn": "9780375836152",
+    "shelfLocation": "E MCK",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "All of baby nose to toes",
+    "isbn": "9780803732179",
+    "shelfLocation": "E ADL",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 2
+  },
+  {
+    "title": "All of baby nose to toe",
+    "isbn": "9780803732179",
+    "shelfLocation": "E ADL",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 6
+  },
+  {
+    "title": "All the colors of the Earth",
+    "isbn": "9780439202213",
+    "shelfLocation": "E HAM",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "All those secrets of the world",
+    "isbn": "9780316968911",
+    "shelfLocation": "E YOL",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 9
+  },
+  {
+    "title": "El gallo que no se callaba! =: The rooster who wou",
+    "isbn": "9781338114140",
+    "shelfLocation": "E DEE SPA",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "Alma and how she got her name",
+    "isbn": "9780763693589",
+    "shelfLocation": "E MAR",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Alma y como obtuvo su nombre",
+    "isbn": "9781338343670",
+    "shelfLocation": "E MAR SPA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 13
+  },
+  {
+    "title": "Alma y como obtuvo su nombre",
+    "isbn": "9781338343670",
+    "shelfLocation": "E MAR SPA",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "The (almost) perfect Mother's Day",
+    "isbn": "9780439407182",
+    "shelfLocation": "E VAI",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+
+  {
+    "title": "The alphabet theatre proudly presents the Z was zapped: a play in twenty-six acts",
+    "isbn": "9780329123086",
+    "shelfLocation": "E VAN",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "The alphabet theatre proudly presents the Z was zapped: a play in twenty-six acts",
+    "isbn": "9780329123086",
+    "shelfLocation": "E VAN",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "The alphabet theatre proudly presents the Z was zapped: a play in twenty-six acts",
+    "isbn": "9780329123086",
+    "shelfLocation": "E VAN",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "The Alphabet War : a story about dyslexia",
+    "isbn": "9781489693976",
+    "shelfLocation": "E ROB",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 5
+  },
+  {
+    "title": "Always listen to your mother",
+    "isbn": "9781423113959",
+    "shelfLocation": "E HEI",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Always with you",
+    "isbn": "9780593465516",
+    "shelfLocation": "E VAN",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 5
+  },
+  {
+    "title": "Amanda and the witch switch",
+    "isbn": "9780670115310",
+    "shelfLocation": "E HIM",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Amanda Bean's amazing dream : a mathematical story",
+    "isbn": "9780618960705",
+    "shelfLocation": "E NEU",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "Amanda Bean's amazing dream : a mathematical story",
+    "isbn": "9780618960705",
+    "shelfLocation": "E NEU",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "The amazing bone",
+    "isbn": "9781555921200",
+    "shelfLocation": "E STE",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 3
+  },
+  {
+    "title": "Amazing grace",
+    "isbn": "9780768207507",
+    "shelfLocation": "E HOF",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Amber on the mountain",
+    "isbn": "9781415577486",
+    "shelfLocation": "E JOH",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "Amelia Bedelia",
+    "isbn": "33434106945563",
+    "shelfLocation": "E PAR",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "Amelia Bedelia",
+    "isbn": "9780545566704",
+    "shelfLocation": "E PAR",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "Amelia Bedelia",
+    "isbn": "9781880507759",
+    "shelfLocation": "E PAR SPA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 6
+  },
+  {
+    "title": "Amelia Bedelia",
+    "isbn": "9780545566704",
+    "shelfLocation": "E PAR",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "Amelia Bedelia 4 mayor",
+    "isbn": "9780439249577",
+    "shelfLocation": "E PAR",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "Amelia Bedelia and the baby",
+    "isbn": "9781402586019",
+    "shelfLocation": "E PAR",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "Amelia Bedelia and the surprise shower",
+    "isbn": "9780064440196",
+    "shelfLocation": "E PAR",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Amelia Bedelia goes camping",
+    "isbn": "9780688040581",
+    "shelfLocation": "E PAR",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Amelia Bedelia under construction",
+    "isbn": "9780545036269",
+    "shelfLocation": "E PAR",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 9
+  },
+  {
+    "title": "Amelia Bedelia's first library card",
+    "isbn": "9780062095138",
+    "shelfLocation": "E PAR",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 5
+  },
+  {
+    "title": "Amelia Bedelia's first Valentine",
+    "isbn": "9780545568418",
+    "shelfLocation": "E PAR",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Amelia's Show-and-Tell Fiesta / Amelia y la fiesta de muestra y cuenta",
+    "isbn": "9780060502553",
+    "shelfLocation": "E CHA SP",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "Un amigo de veras maravilloso",
+    "isbn": "9781590784907",
+    "shelfLocation": "E BLO SP",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 3
+  },
+  {
+    "title": "Amor",
+    "isbn": "9780345806017",
+    "shelfLocation": "E DE SPA",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 3
+  },
+  {
+    "title": "Amor",
+    "isbn": "9780345806017",
+    "shelfLocation": "E DE SPA",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Amy Wu and the perfect bao",
+    "isbn": "9780221045769",
+    "shelfLocation": "E ZHA",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "And I mean it, Stanley",
+    "isbn": "9780060205683",
+    "shelfLocation": "E BON",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "And the good brown earth",
+    "isbn": "9781415535318",
+    "shelfLocation": "E HEN",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 2
+  },
+  {
+    "title": "And then comes Halloween",
+    "isbn": "9780763652999",
+    "shelfLocation": "E BRE",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Andrew's loose tooth",
+    "isbn": "9780590038362",
+    "shelfLocation": "E MUN",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Andrew's loose tooth",
+    "isbn": "9780590038362",
+    "shelfLocation": "E MUN",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 7
+  },
+  {
+    "title": "Andy Shane and the very bossy Dolores Starbuckle",
+    "isbn": "9781430103226",
+    "shelfLocation": "E JAC",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 6
+  },
+  {
+    "title": "Andy Shane : hero at last",
+    "isbn": "9780329872540",
+    "shelfLocation": "E JAC",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "Andy (that's my name)",
+    "isbn": "9780671664640",
+    "shelfLocation": "E DE",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 6
+  },
+  {
+    "title": "Angel child, dragon child",
+    "isbn": "9780840376695",
+    "shelfLocation": "E SUR",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "An angel for Solomon Singer",
+    "isbn": "9780758719461",
+    "shelfLocation": "E RYL",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "Ani y la Anciana",
+    "isbn": "9780605128200",
+    "shelfLocation": "E MIL SP",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 2
+  },
+  {
+    "title": "Animal mothers",
+    "isbn": "9780399209802",
+    "shelfLocation": "E KOM",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "Animales grandes y pequenos = : animals big and small",
+    "isbn": "9781429623896",
+    "shelfLocation": "E MAG SPA",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 10
+  },
+  {
+    "title": "Animals big and small",
+    "isbn": "9781429623896",
+    "shelfLocation": "E MAG",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 5
+  },
+  {
+    "title": "Animals should definitely not act like people",
+    "isbn": "9780590453622",
+    "shelfLocation": "E BAR",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Anna Banana and me",
+    "isbn": "9780689502743",
+    "shelfLocation": "E BLE",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Anna & Elsa's secret playtime",
+    "isbn": "9780736434935",
+    "shelfLocation": "E SAX",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Anna & Elsa's secret playtime",
+    "isbn": "9780736434935",
+    "shelfLocation": "E SAX",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Annabelle Swift, kindergartner : story and picture",
+    "isbn": "9780531083376",
+    "shelfLocation": "E SCH",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "Annie and the wild animals",
+    "isbn": "9780395539620",
+    "shelfLocation": "E BRE",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 13
+  },
+  {
+    "title": "Annie Bananie",
+    "isbn": "9782211015134",
+    "shelfLocation": "E KOM",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 7
+  },
+  {
+    "title": "Ant and Grasshopper",
+    "isbn": "9788131960752",
+    "shelfLocation": "E GRA",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 10
+  },
+  {
+    "title": "Ant and Honey Bee : a pair of friends at Halloween",
+    "isbn": "9781480624641",
+    "shelfLocation": "E MCD",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Ant plays bear",
+    "isbn": "9780874995428",
+    "shelfLocation": "E BYA",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Ant plays bear",
+    "isbn": "9780874995428",
+    "shelfLocation": "E BYA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Apes find shapes : a book about recognizing shapes",
+    "isbn": "9780895656810",
+    "shelfLocation": "E MON",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Apple pie 4th of July",
+    "isbn": "9781415665985",
+    "shelfLocation": "E WON",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "Apples to Oregon : being the (slightly) true narra",
+    "isbn": "9781416967460",
+    "shelfLocation": "E HOP",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "La arana muy ocupada",
+    "isbn": "9780593659878",
+    "shelfLocation": "E CAR",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 13
+  },
+  {
+    "title": "El arbol generoso",
+    "isbn": "9780060244194",
+    "shelfLocation": "E SIL SPA",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 3
+  },
+  {
+    "title": "Are the dinosaurs dead, Dad?",
+    "isbn": "9782877677615",
+    "shelfLocation": "E MID",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Are you my mother?",
+    "isbn": "9780394900186",
+    "shelfLocation": "E EAS",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 9
+  },
+  {
+    "title": "Are you ready to play outside?",
+    "isbn": "9781448742974",
+    "shelfLocation": "E WIL",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "Are you ready to play outside?",
+    "isbn": "9781448742974",
+    "shelfLocation": "E WIL",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "The armadillo from Amarillo",
+    "isbn": "9780440832485",
+    "shelfLocation": "E CHE",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 2
+  },
+  {
+    "title": "Armadillo rodeo",
+    "isbn": "9780329033354",
+    "shelfLocation": "E BRE",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 10
+  },
+  {
+    "title": "Armadillo va al rodeo",
+    "isbn": "9780425287514",
+    "shelfLocation": "E BRE SPA",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "Armando y la escuela de lona azul",
+    "isbn": "9781600604492",
+    "shelfLocation": "E FIN SPA",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "Armando y la escuela de lona azul",
+    "isbn": "9781600604492",
+    "shelfLocation": "E FIN SPA",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Art & Max",
+    "isbn": "9783848900428",
+    "shelfLocation": "E WIE",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "The art of Miss Chew",
+    "isbn": "9780605531765",
+    "shelfLocation": "E POL",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "The art teacher from the Black Lagoon",
+    "isbn": "9780439429252",
+    "shelfLocation": "E THA",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 6
+  },
+  {
+    "title": "Arthur and the big snow",
+    "isbn": "9781338586381",
+    "shelfLocation": "E BRO",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "Arthur and the true Francine",
+    "isbn": "9780590377614",
+    "shelfLocation": "E BRO",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Arthur and the true Francine",
+    "isbn": "9780590377614",
+    "shelfLocation": "E BRO",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "Arthur babysits",
+    "isbn": "9780316111348",
+    "shelfLocation": "E BRO",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Arthur lost and found",
+    "isbn": "9780329218027",
+    "shelfLocation": "E BRO",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 5
+  },
+  {
+    "title": "Arthur lost and found",
+    "isbn": "9780329218027",
+    "shelfLocation": "E BRO",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 10
+  },
+  {
+    "title": "Arthur meets the President",
+    "isbn": "9780590994415",
+    "shelfLocation": "E BRO",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "Arthur meets the President",
+    "isbn": "9781930332119",
+    "shelfLocation": "E ART SP",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Arthur writes a story",
+    "isbn": "9780316119764",
+    "shelfLocation": "E BRO",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 7
+  },
+  {
+    "title": "Arthur's birthday",
+    "isbn": "9780316118576",
+    "shelfLocation": "E BRO",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Arthur's birthday",
+    "isbn": "9780316118576",
+    "shelfLocation": "E BRO",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Arthur's computer disaster",
+    "isbn": "33434086824598",
+    "shelfLocation": "E ART SP",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Arthur's computer disaster",
+    "isbn": "9780590634854",
+    "shelfLocation": "E BRO",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "Arthur's eyes",
+    "isbn": "9780316113380",
+    "shelfLocation": "E BRO",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "Arthur's first sleepover",
+    "isbn": "9780316105606",
+    "shelfLocation": "E BRO",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "Arthur's first sleepover",
+    "isbn": "9780316105606",
+    "shelfLocation": "E BRO",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "Arthur's honey bear",
+    "isbn": "9781435262775",
+    "shelfLocation": "E BON",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Arthur's nose",
+    "isbn": "9780316111935",
+    "shelfLocation": "E BRO",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 6
+  },
+  {
+    "title": "Arthur's nose",
+    "isbn": "9780316111935",
+    "shelfLocation": "E BRO",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "Arthur's pet business",
+    "isbn": "9780440844792",
+    "shelfLocation": "E BRO",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 13
+  },
+  {
+    "title": "Arthur's teacher trouble",
+    "isbn": "9780440840381",
+    "shelfLocation": "E BRO",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Arthur's Thanksgiving",
+    "isbn": "9780590122368",
+    "shelfLocation": "E BRO",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Arthur's valentine",
+    "isbn": "9780316118668",
+    "shelfLocation": "E BRO",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Arturo and the Navidad birds = Arturo y los pájar",
+    "isbn": "9781455618019",
+    "shelfLocation": "E BRO SP",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "Arturo y el dia de accion de gracias",
+    "isbn": "9781880507797",
+    "shelfLocation": "E BRO SP",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Maya's blanket = : la manta de Maya",
+    "isbn": "9780892392926",
+    "shelfLocation": "E BRO",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "Maya's blanket = : la manta de Maya",
+    "isbn": "9780892392926",
+    "shelfLocation": "E BRO",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 6
+  },
+  {
+    "title": "As the crow flies : a first book of maps",
+    "isbn": "9780758719935",
+    "shelfLocation": "E HAR",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "As the crow flies : a first book of maps",
+    "isbn": "9780758719935",
+    "shelfLocation": "E HAR",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 5
+  },
+  {
+    "title": "Asi vamos a la escuela : un libro acerca de ninos en diferentes países del mundo",
+    "isbn": "9780590293051",
+    "shelfLocation": "E BAE SP",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Aster Aardvark's alphabet adventures",
+    "isbn": "9780688072575",
+    "shelfLocation": "E KEL",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 6
+  },
+  {
+    "title": "At the mountain's base",
+    "isbn": "9781713701293",
+    "shelfLocation": "E SOR",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "Atardecer en el pueblo fantasma",
+    "isbn": " 9781930332973",
+    "shelfLocation": "E OSB",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Attack of the 50-foot Fly Guy",
+    "isbn": "9781338730951",
+    "shelfLocation": "E ARN",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 3
+  },
+  {
+    "title": "Attack of the 50-foot Fly Guy",
+    "isbn": "9781338730951",
+    "shelfLocation": "E ARN",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "Atticus Caticus",
+    "isbn": "9781536208405",
+    "shelfLocation": "E MAI",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 13
+  },
+  {
+    "title": "Aunt Chip and the great Triple Creek dam affair",
+    "isbn": "9780804568364",
+    "shelfLocation": "E POL",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 3
+  },
+  {
+    "title": "Aunt Eater loves a mystery",
+    "isbn": "9780060213275",
+    "shelfLocation": "E CUS",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "Aunt Isabel tells a good one",
+    "isbn": "9780525453499",
+    "shelfLocation": "E DUK",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Las aventuras de Beekle : el amigo (no) imaginario",
+    "isbn": "9788469604342",
+    "shelfLocation": "E SAN",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Babes in Toyland",
+    "isbn": "9780152004101",
+    "shelfLocation": "E SHA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "Babushka Baba Yaga",
+    "isbn": "9780590061971",
+    "shelfLocation": "E POL",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 10
+  },
+  {
+    "title": "Baby Bear's books",
+    "isbn": "9780152059736",
+    "shelfLocation": "E YOL",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Baby happy baby sad = bebe feliz bebe triste",
+    "isbn": "9781406311785",
+    "shelfLocation": "E PAT SPA",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "The baby tree",
+    "isbn": "9780399257186",
+    "shelfLocation": "E BLA",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "The babysitters",
+    "isbn": "9780593535172",
+    "shelfLocation": "E CHA",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Back of the bus",
+    "isbn": "9781489806093",
+    "shelfLocation": "E REY",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Bad day at Riverbend",
+    "isbn": "9780590970075",
+    "shelfLocation": "E VAN",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Bad kitty",
+    "isbn": "9781596430693",
+    "shelfLocation": "E BRU",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "A Bad Kitty Christmas",
+    "isbn": "9780545757515",
+    "shelfLocation": "E BRU",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Bad Kitty for president",
+    "isbn": "9781451773125",
+    "shelfLocation": "E BRU",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "Bad Kitty, scaredy-cat",
+    "isbn": "9780605942165",
+    "shelfLocation": "E BRU",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Bad Kitty searching for Santa",
+    "isbn": "9781250198433",
+    "shelfLocation": "E BRU",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 2
+  },
+  {
+    "title": "Badger's fancy meal",
+    "isbn": "9780399251719",
+    "shelfLocation": "E KAS",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "Bag in the wind",
+    "isbn": "9780763630010",
+    "shelfLocation": "E KOO",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "Bailey",
+    "isbn": "9780605513082",
+    "shelfLocation": "E BLI",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Bailey (Spanish)",
+    "isbn": "9780545457002",
+    "shelfLocation": "E BLI SPA",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 3
+  },
+  {
+    "title": "Bailey goes camping",
+    "isbn": "33434069011213",
+    "shelfLocation": "E HEN",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 5
+  },
+  {
+    "title": "Bake-off mayhem",
+    "isbn": "9781532149535",
+    "shelfLocation": "E HOW",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Ballerino Nate",
+    "isbn": "9781415662151",
+    "shelfLocation": "E BRA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "The ballot box battle",
+    "isbn": "9780329085711",
+    "shelfLocation": "E MCC",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "Bandit's surprise",
+    "isbn": "9780761456230",
+    "shelfLocation": "E ROS",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Barbie, a fairy secret",
+    "isbn": "9780329838584",
+    "shelfLocation": "E HAS",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Barbie : a fairy secret",
+    "isbn": "9781445429915",
+    "shelfLocation": "E MAN",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "Barbie. Animal snapshots : a picture scrapbook",
+    "isbn": "9780307106247",
+    "shelfLocation": "E MIL",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Barbie as the island princess",
+    "isbn": "9780329520267",
+    "shelfLocation": "E ALB",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Barbie fairytale collection.",
+    "isbn": "9780606217439",
+    "shelfLocation": "E BAR",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "Barbie I can be a gymnast",
+    "isbn": "9781480652743",
+    "shelfLocation": "E DEP",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Barbie I can be-- a movie star",
+    "isbn": "9780449816196",
+    "shelfLocation": "E INC",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "Barbie in a mermaid tale",
+    "isbn": "9781448727872",
+    "shelfLocation": "E WEB",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "Barbie in a mermaid tale",
+    "isbn": "9781448727872",
+    "shelfLocation": "E MAN",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Barbie princess charm school",
+    "isbn": "9780375980602",
+    "shelfLocation": "E DEP",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "Barbie spy squad",
+    "isbn": "9782897137403",
+    "shelfLocation": "E TIL",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Barbie, the princess & the popstar",
+    "isbn": "9780307976260",
+    "shelfLocation": "E TIL",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 2
+  },
+  {
+    "title": "Barbie, you can be a soccer player",
+    "isbn": "9781518294112",
+    "shelfLocation": "E DEP",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "El barco de Camila : un cuento para dormir",
+    "isbn": "9788494429163",
+    "shelfLocation": "E MOR SP",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "Bark, George",
+    "isbn": "9780616039113",
+    "shelfLocation": "E FEI",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Barney's horse",
+    "isbn": "9780758760005",
+    "shelfLocation": "E HOF",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 9
+  },
+  {
+    "title": "Baseball ballerina",
+    "isbn": "9780590604970",
+    "shelfLocation": "E CRI",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 2
+  },
+  {
+    "title": "Basta de burlas",
+    "isbn": "9781404876774",
+    "shelfLocation": "E MAN SPA",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "Bat loves the night",
+    "isbn": "9780605183971",
+    "shelfLocation": "E DAV",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "Bat loves the night",
+    "isbn": "9780605183971",
+    "shelfLocation": "E DAV",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 5
+  },
+  {
+    "title": "Bat loves the night",
+    "isbn": "9780605183971",
+    "shelfLocation": "E DAV",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Bats at the ballgame",
+    "isbn": "9781449826284",
+    "shelfLocation": "E LIE",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "Bats at the beach",
+    "isbn": "9781436189569",
+    "shelfLocation": "E LIE",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "Bats at the beach",
+    "isbn": "9781436189569",
+    "shelfLocation": "E LIE",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 10
+  },
+  {
+    "title": "Bats in the band",
+    "isbn": "9781490640488",
+    "shelfLocation": "E LIE",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "The battle of the snow cones = La guerra de las raspas",
+    "isbn": "9781558855755",
+    "shelfLocation": "E RUI SPA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "Battle of the snowboarders",
+    "isbn": "9781614794158",
+    "shelfLocation": "E SAN",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Be gentle!",
+    "isbn": "9781406309492",
+    "shelfLocation": "E MIL",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Be my valentine",
+    "isbn": "9780590451314",
+    "shelfLocation": "E WEL",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Be proud of yourself!",
+    "isbn": "9781492900634",
+    "shelfLocation": "E GIK",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Be quiet!",
+    "isbn": "9781484731628",
+    "shelfLocation": "E HIG",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Beach day",
+    "isbn": "9780618029235",
+    "shelfLocation": "E MAY",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "Beach race",
+    "isbn": "9781499800999",
+    "shelfLocation": "E RIL",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "A beach tail",
+    "isbn": "9781456120313",
+    "shelfLocation": "E WIL",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "A beach tail",
+    "isbn": "9781456120313",
+    "shelfLocation": "E WIL",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Bear came along",
+    "isbn": "9781713700838",
+    "shelfLocation": "E MOR",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "The bear in the book",
+    "isbn": "9780374305918",
+    "shelfLocation": "E BAN",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 2
+  },
+  {
+    "title": "Bear snores on",
+    "isbn": "9780439766647",
+    "shelfLocation": "E WIL",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "Bear stays up for Christmas",
+    "isbn": "9781442427907",
+    "shelfLocation": "E WIL",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 9
+  },
+  {
+    "title": "Bears, bears, everywhere",
+    "isbn": "9780516020853",
+    "shelfLocation": "E MIL",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 9
+  },
+  {
+    "title": "The bear's toothache",
+    "isbn": "9780874990829",
+    "shelfLocation": "E MCP",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Beat your greens",
+    "isbn": "9780439251792",
+    "shelfLocation": "E DOW",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Beautiful moon =: bella luna",
+    "isbn": "9780605498907",
+    "shelfLocation": "E JEF",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 13
+  },
+  {
+    "title": "Beauty and the Beast",
+    "isbn": "9780736421973",
+    "shelfLocation": "E LAG",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 13
+  },
+  {
+    "title": "Because",
+    "isbn": "9781713706489",
+    "shelfLocation": "E WIL",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "Because Amelia smiled",
+    "isbn": "9780763641696",
+    "shelfLocation": "E STE",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "The bee tree",
+    "isbn": "9780329073046",
+    "shelfLocation": "E POL",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Being you",
+    "isbn": "9780571337712",
+    "shelfLocation": "E PAT",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "Believe me, Goldilocks rocks! : the story of the three bears as told by baby bear",
+    "isbn": "9781404866720",
+    "shelfLocation": "E LOE",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "Believe Me, I Never Felt a Pea!: The Story of the Princess and the Pea as Told by the Princess",
+    "isbn": "9781479586264",
+    "shelfLocation": "E LOE",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "The belly book",
+    "isbn": "9780375943409",
+    "shelfLocation": "E MAN",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "Benito y Melosa",
+    "isbn": "9780735822894",
+    "shelfLocation": "E KEM SPA",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 9
+  },
+  {
+    "title": "Benny and Penny in Lights out! : a Toon book",
+    "isbn": "9781954084193",
+    "shelfLocation": "E HAY",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 3
+  },
+  {
+    "title": "Ben's trumpet",
+    "isbn": "9780688841942",
+    "shelfLocation": "E ISA",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "Ben's trumpet",
+    "isbn": "9780688841942",
+    "shelfLocation": "E ISA",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "The Berenstain Bears big bear, small bear",
+    "isbn": "9780329353766",
+    "shelfLocation": "E BER",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 3
+  },
+  {
+    "title": "The Berenstain Bears learn about strangers",
+    "isbn": "9780394973340",
+    "shelfLocation": "E BER",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "The Berenstain bears' report card trouble",
+    "isbn": "9780616110959",
+    "shelfLocation": "E BER",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 11
+  },
+  {
+    "title": "The Berenstain Bears, we like kites",
+    "isbn": "9780679992318",
+    "shelfLocation": "E BER",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 9
+  },
+  {
+    "title": "Berto lo ve claro",
+    "isbn": "9788479421304",
+    "shelfLocation": "E ROM SPA",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 7
+  },
+  {
+    "title": "Un beso en mi mano",
+    "isbn": "9780605199453",
+    "shelfLocation": "E PEN",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Bessey la Desordenada pasa una noche de cumpleanos",
+    "isbn": "9780516246208",
+    "shelfLocation": "E MCK SP",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 5
+  },
+  {
+    "title": "The best baby-sitter ever.",
+    "isbn": "9780689803666",
+    "shelfLocation": "E SCA",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "Best best friends",
+    "isbn": "9781415660201",
+    "shelfLocation": "E CHO",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 5
+  },
+  {
+    "title": "The best cat ever",
+    "isbn": "9780316037563",
+    "shelfLocation": "E GOR",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Best friends",
+    "isbn": "33434011780816",
+    "shelfLocation": "E KEL",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Best friends",
+    "isbn": "9781250317469",
+    "shelfLocation": "E LEO",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "Best friends",
+    "isbn": "9781250317469",
+    "shelfLocation": "E LEO",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Best friends",
+    "isbn": "9781250317469",
+    "shelfLocation": "E MIC",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "The best Halloween of all",
+    "isbn": "9780329216122",
+    "shelfLocation": "E WOJ",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 12
+  },
+  {
+    "title": "The best mistake ever! : and other stories",
+    "isbn": "9780394968162",
+    "shelfLocation": "E SCA",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 6
+  },
+  {
+    "title": "The best pet yet",
+    "isbn": "9780590984904",
+    "shelfLocation": "E TID",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "The best picnic ever",
+    "isbn": "9780763623708",
+    "shelfLocation": "E JAR",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "The best vacation ever",
+    "isbn": "9780329124113",
+    "shelfLocation": "E MUR",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 9
+  },
+  {
+    "title": "Betty Bunny loves chocolate cake",
+    "isbn": "9781430111320",
+    "shelfLocation": "E KAP",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 2
+  },
+  {
+    "title": "Betty Bunny wants everything",
+    "isbn": "9780545703765",
+    "shelfLocation": "E KAP",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 5
+  },
+  {
+    "title": "The Bicklebys' birdbath",
+    "isbn": "9781416906247",
+    "shelfLocation": "E PER",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "A bicycle for Rosaura",
+    "isbn": "9780026857918",
+    "shelfLocation": "E BAR",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 9
+  },
+  {
+    "title": "A bicycle for Rosaura",
+    "isbn": "9780026857918",
+    "shelfLocation": "E BAR",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Bien hecho, Ajay!",
+    "isbn": "9781580894876",
+    "shelfLocation": "E MUR SPA",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 3
+  },
+  {
+    "title": "Bienvenidos a mi barrio! : mi mundo de la A a la Z",
+    "isbn": "9780605444713",
+    "shelfLocation": "E HUD SPA",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 9
+  },
+  {
+    "title": "Bienvenidos a mi barrio! : mi mundo de la A a la Z",
+    "isbn": "9780605444713",
+    "shelfLocation": "E HUD SPA",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Big and small.",
+    "isbn": "9781846869518",
+    "shelfLocation": "E BIG",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 10
+  },
+  {
+    "title": "Big bad Bruce",
+    "isbn": "9780395457412",
+    "shelfLocation": "E PEE",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "The big, big wall = : no puedo bajar",
+    "isbn": "9780547255484",
+    "shelfLocation": "E HOW SPA",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 6
+  },
+  {
+    "title": "The big, big wall = : no puedo bajar",
+    "isbn": "9780547255484",
+    "shelfLocation": "E HOW SP",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "Big Bob and the Halloween potatoes",
+    "isbn": "9780439042420",
+    "shelfLocation": "E PIN",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "Big bouffant",
+    "isbn": "9780761354093",
+    "shelfLocation": "E HOS",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "The big box",
+    "isbn": "9780786823642",
+    "shelfLocation": "E CLA",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "The big box",
+    "isbn": "9780786823642",
+    "shelfLocation": "E CLA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "Big box of shapes",
+    "isbn": "9781634400824",
+    "shelfLocation": "E BLE",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Big brown bear",
+    "isbn": "9780738330099",
+    "shelfLocation": "E MCP",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Big bug",
+    "isbn": "9780545253802",
+    "shelfLocation": "E COL",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 5
+  },
+  {
+    "title": "Big egg",
+    "isbn": "9780329363987",
+    "shelfLocation": "E COX",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "A big fat enormous lie",
+    "isbn": "9780590967990",
+    "shelfLocation": "E SHA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 10
+  },
+  {
+    "title": "A big guy took my ball!",
+    "isbn": "9780605724419",
+    "shelfLocation": "E WIL",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "A big guy took my ball!",
+    "isbn": "9780605724419",
+    "shelfLocation": "E WIL",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 3
+  },
+  {
+    "title": "Big little = : Grande pequeño",
+    "isbn": "9780763699666",
+    "shelfLocation": "E PAT SPA",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Big old bones : a dinosaur tale",
+    "isbn": "9780758720979",
+    "shelfLocation": "E CAR",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "Big Pig and Little Pig",
+    "isbn": "9780329357696",
+    "shelfLocation": "E MCP",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 9
+  },
+  {
+    "title": "Big Pig and Little Pig = : Cerdo y Cerdito",
+    "isbn": "33434099870281",
+    "shelfLocation": "E MCP",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Big Pig and Little Pig = : Cerdo y Cerdito",
+    "isbn": "9780605242111",
+    "shelfLocation": "E MCP SP",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "Big red lollipop",
+    "isbn": "9780616595398",
+    "shelfLocation": "E KHA",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "The big storm",
+    "isbn": "9781442454309",
+    "shelfLocation": "E REI",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "The big storm",
+    "isbn": "9781442454309",
+    "shelfLocation": "E REI",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 6
+  },
+  {
+    "title": "The biggest soap",
+    "isbn": "9781415560495",
+    "shelfLocation": "E SCH",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "Billy & Milly, short & silly",
+    "isbn": "9780399246517",
+    "shelfLocation": "E FEL",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 6
+  },
+  {
+    "title": "Billy & Milly, short & silly",
+    "isbn": "9780399246517",
+    "shelfLocation": "E FEL",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "Book of North American Birds",
+    "isbn": "9780895773517",
+    "shelfLocation": "E HEN",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 2
+  },
+  {
+    "title": "Book of North American Birds",
+    "isbn": "9780895773517",
+    "shelfLocation": "E HEN",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "A birthday basket for Tia",
+    "isbn": "9780590477581",
+    "shelfLocation": "E MOR",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "A birthday basket for Tia",
+    "isbn": "9780590477581",
+    "shelfLocation": "E MOR",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "A birthday in the barrio",
+    "isbn": "9780605213692",
+    "shelfLocation": "E DOL SP",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "The birthday pet",
+    "isbn": "9780761455226",
+    "shelfLocation": "E JAV",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 2
+  },
+  {
+    "title": "Birthday presents",
+    "isbn": "9780440846796",
+    "shelfLocation": "E RYL",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Biscuit and the little pup",
+    "isbn": "9780545159227",
+    "shelfLocation": "E CAP",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "Biscuit goes to school",
+    "isbn": "9780060286835",
+    "shelfLocation": "E CAP",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Biscuit's 100th day of school",
+    "isbn": "9780606146456",
+    "shelfLocation": "E CAP",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 8
+  },
+  {
+    "title": "Biscuit's new trick",
+    "isbn": "9780329241643",
+    "shelfLocation": "E CAP",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 7
+  },
+  {
+    "title": "Bitsy",
+    "isbn": "9781665905053",
+    "shelfLocation": "E OPA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 14
+  },
+  {
+    "title": "Bittle",
+    "isbn": "9780060009625",
+    "shelfLocation": "E MAC",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Black and white",
+    "isbn": "9781506306940",
+    "shelfLocation": "E MAC",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 10
+  },
+  {
+    "title": "Black Panther",
+    "isbn": "9783741613579",
+    "shelfLocation": "E BUS",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 7
+  },
+  {
+    "title": "The black rabbit",
+    "isbn": "9780763688790",
+    "shelfLocation": "E LEA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Blackout",
+    "isbn": "9780063204843",
+    "shelfLocation": "E ROC",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Blackout",
+    "isbn": "9780063204843",
+    "shelfLocation": "E ROC",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 17
+  },
+  {
+    "title": "Blueberries for the queen",
+    "isbn": "9780066239439",
+    "shelfLocation": "E PAT",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "The Blues go birding across America",
+    "isbn": "9781584691259",
+    "shelfLocation": "E MAL",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Blue's Thanksgiving feast",
+    "isbn": "9780439337182",
+    "shelfLocation": "E LIS",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 7
+  },
+  {
+    "title": "Blue's Thanksgiving feast",
+    "isbn": "9780439337182",
+    "shelfLocation": "E LIS",
+    "bookLevel": "5",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "Boats!",
+    "isbn": "9780375802218",
+    "shelfLocation": "E COR",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Bobo and Pup-Pup. 1, We love bubbles!",
+    "isbn": "9780593120651",
+    "shelfLocation": "E MAD",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 13
+  },
+  {
+    "title": "Bobo and Pup-Pup. 2, Let's make cake!",
+    "isbn": "9780593120682",
+    "shelfLocation": "E MAD",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 10
+  },
+  {
+    "title": "Bobo the sailor man!",
+    "isbn": "9781442444430",
+    "shelfLocation": "E ROS",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 18
+  },
+  {
+    "title": "Bob's birthday",
+    "isbn": "9780439341080",
+    "shelfLocation": "E BOB",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "Bodies are cool",
+    "isbn": "9780593112625",
+    "shelfLocation": "E FED",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Bola de mugre",
+    "isbn": "9780605241244",
+    "shelfLocation": "E MUN SP",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 20
+  },
+  {
+    "title": "Un bolsillo para Corduroy",
+    "isbn": "9781595191410",
+    "shelfLocation": "E FRE",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 2
+  },
+  {
+    "title": "Un bolsillo para Corduroy",
+    "isbn": "9781595191410",
+    "shelfLocation": "E FRE",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 1
+  },
+  {
+    "title": "Un bolsillo para Corduroy = : (A pocket for Cordur",
+    "isbn": "9781595191410",
+    "shelfLocation": "E FRE",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 15
+  },
+  {
+    "title": "Boo! Baa, la la la!",
+    "isbn": "9781534452831",
+    "shelfLocation": "E BOY",
+    "bookLevel": "1",
+    "bookLevelColor": "White",
+    "authorId": 16
+  },
+  {
+    "title": "Boogie boogie, y'all",
+    "isbn": "9780062976222",
+    "shelfLocation": "E ESP",
+    "bookLevel": "2",
+    "bookLevelColor": "White",
+    "authorId": 4
+  },
+  {
+    "title": "The book hog",
+    "isbn": "9781713701422",
+    "shelfLocation": "E PIZ",
+    "bookLevel": "4",
+    "bookLevelColor": "White",
+    "authorId": 19
+  },
+  {
+    "title": "The bookstore ghost",
+    "isbn": "9780448461311",
+    "shelfLocation": "E MAI",
+    "bookLevel": "6",
+    "bookLevelColor": "White",
+    "authorId": 3
+  },
+  {
+    "title": "The boss baby",
+    "isbn": "9781442487796",
+    "shelfLocation": "E FRA",
+    "bookLevel": "3",
+    "bookLevelColor": "White",
+    "authorId": 12
+  }
+]

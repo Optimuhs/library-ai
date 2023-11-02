@@ -1,91 +1,91 @@
-// schema.prisma
-
 generator client {
-  provider = "prisma-client-js"
+  provider        = "prisma-client-js"
   previewFeatures = ["jsonProtocol"]
-  schema="LibraryDB"
+  schema          = "LibraryDB"
 }
 
 datasource db {
   provider = "postgresql"
-  url = env("POSTGRES_URL") // uses connection pooling
-  
+  url      = env("POSTGRES_URL")
 }
 
 model User {
-  id                    Int       @id @default(autoincrement())
-  firstName             String
-  lastName              String
-  idNumber              String    @unique
-  isStudent             Boolean
-  createdAt             DateTime  @default(now()) @map(name: "created_at")
-  updatedAt             DateTime  @updatedAt @map(name: "updated_at")
-  currentReadingLevel   String
-  email                 String    @unique
-  checkedOutBooks       Rentals?
+  id                  Int           @id @default(autoincrement())
+  firstName           String
+  lastName            String
+  idNumber            String         @unique
+  isStudent           Boolean
+  createdAt           DateTime       @default(now()) @map("created_at")
+  updatedAt           DateTime       @updatedAt @map("updated_at")
+  currentReadingLevel String
+  email               String         @unique
+  accountPrivileges   Priviliges?    @relation("UserPrivileges")
+  userReservations    Reservation[]  @relation("UserReserving")
 
-  accountPrivileges     Priviliges?  @relation("UserPrivileges")
-
-  @@map(name: "users")
+  @@map("users")
 }
 
 model Book {
-  id              Int            @id @default(autoincrement())
-  isbn            String                 
-  title           String
+  id             Int                  @id @default(autoincrement())
+  title          String
+  reservationId  Int?
+  bookLevel      String
+  bookLevelColor String
+  rentalId       Int?                 @unique 
+  shelfLocation  String
+  isbn           String
+  rented         Rentals?             @relation("BookCheckedOut", fields: [rentalId], references: [id])
+  reserved       Reservation[]        @relation("BookReserving")
 
-  shelfLocation   String
-  bookLevel       String
-  bookLevelColor  String
-
-  // Checkouts
-  rented          Rentals?       @relation("BookCheckedOut", fields: [rentalId], references: [id])
-  rentalId        Int?         
-
-  // Reservations  
-  reservedBy      Reservation?   @relation(fields: [reservationId], references: [id])
-  reservationId   Int?
-  
-  @@map(name: "books")
+  @@map("books")
 }
 
 model Author {
-  id            Int         @id @default(autoincrement())
-  firstName     String    
-  lastName      String
+  id        Int                      @id @default(autoincrement())
+  firstName String
+  lastName  String
 
-  @@map(name: "authors")
+  @@map("authors")
 }
 
 model Reservation {
-  id                      Int          @id @default(autoincrement())
-  booksReserved           Book[]
-  bookId                  Int?
-  pending                 Boolean
-  reservationAt           DateTime?    @default(now()) @map(name: "reservation_at")
-  reservationFulfilled    DateTime?    @default(now()) @map(name: "reservation_fulfilled_at")
-  @@map(name: "reservations")
+  id                   Int            @id @default(autoincrement())
+
+  pending              Boolean
+  reservationAt        DateTime?      @default(now()) @map("reservation_at")
+  reservationFulfilled DateTime?       @map("reservation_fulfilled_at")
+  reservationExpiry    DateTime?       
+  userReserving        User           @relation("UserReserving", fields: [userId], references: [id])
+  userId               Int
+
+  book                 Book?          @relation("BookReserving", fields: [bookId], references: [id])
+  bookId               Int?         
+  bookISBN             String
+  @@map("reservations")
 }
 
 model Priviliges {
-  id                Int         @id @default(autoincrement())
-  checkoutBooks     Boolean
-  checkinBooks      Boolean
-  addBooks          Boolean
-  removeBooks       Boolean
-  moveAccounts      Boolean
-  userAccount       User        @relation("UserPrivileges", fields:[userId], references: [id])
-  userId            Int         @unique
+  id            Int                   @id @default(autoincrement())
+  checkoutBooks Boolean
+  checkinBooks  Boolean
+  addBooks      Boolean
+  removeBooks   Boolean
+  moveAccounts  Boolean
+  userId        Int                   @unique
+  userAccount   User                  @relation("UserPrivileges", fields: [userId], references: [id])
 }
 
 model Rentals {
-  id                  Int            @id @default(autoincrement())
-  booksOut            Book[]         @relation("BookCheckedOut")
-  checkedOut          Boolean        @default(false)
-  checkedOutAt        DateTime?      @default(now())
-  dueDate             DateTime?      
-  checkedInAt         DateTime?      @default(now())
+  id           Int                    @id @default(autoincrement())
+  checkedOut   Boolean                @default(false)
+  checkedOutAt DateTime               @default(now())
+  dueDate      DateTime
+  checkedInAt  DateTime?               
+  borrowerId   Int        
+  bookOut      Book?                  @relation("BookCheckedOut")
 
-  checkedOutBy        User           @relation(fields: [borrowerId], references: [id]) 
-  borrowerId          Int            @unique 
+  booksOutId   Int    
+  bookISBN     String
+  @@map("rentals")
 }
+
